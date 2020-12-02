@@ -1,0 +1,71 @@
+%headings-default {
+    font-family: $font-primary-alt-bold;
+    color: $black;
+  }
+  
+  %h1 {
+    @extend %headings-default;
+    @include font-size(rem(25), rem(35));
+    @include breakpoint(sm) {
+      @include font-size(rem(42), rem(55));
+    }
+    @include breakpoint(lg) {
+      @include font-size(rem(54), rem(70));
+    }
+    @include breakpoint(xlg) {
+      @include font-size(rem(64), rem(83));
+    }
+  }
+  
+  %h2 {
+    @extend %headings-default;
+    @include font-size(rem(20), rem(24));
+    @include breakpoint(sm) {
+      @include font-size(rem(32), rem(38));
+    }
+    @include breakpoint(lg) {
+      @include font-size(rem(40), rem(48));
+    }
+  }
+  
+  %h3 {
+    @extend %headings-default;
+    @include font-size(rem(19), rem(22));
+    @include breakpoint(sm) {
+      @include font-size(rem(27), rem(32));
+    }
+    @include breakpoint(lg) {
+      @include font-size(rem(32), rem(42));
+    }
+  }
+  
+  %h4 {
+    @extend %headings-default;
+    @include font-size(rem(18), rem(23));
+  
+    @include breakpoint(sm) {
+      @include font-size(rem(22), rem(29));
+    }
+    @include breakpoint(lg) {
+      @include font-size(rem(24), rem(31));
+    }
+  }
+  
+  %h5 {
+    @extend %headings-default;
+    @include font-size(rem(18), rem(23));
+  }
+  
+  
+  %headline{
+    //@extend %headings-default;
+    font-family: $font-primary-bold ;
+    color:$secondary-01;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include font-size(rem(14), rem(16));
+    @include breakpoint(md) {
+      @include font-size(rem(16), rem(19));
+    }
+  }
+  

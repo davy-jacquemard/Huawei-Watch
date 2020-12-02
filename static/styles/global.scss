@@ -1,16 +1,17 @@
 /*--------------------------------
-VARIABLES
---------------------------------*/
-
-@import "./core/helpers/variables";
-@import "./core/helpers/starter";
-@import "./core/helpers/normalize";
-
-/*--------------------------------
 MIXINS
 --------------------------------*/
 
 @import "./core/mixins/mixins";
+
+
+/*--------------------------------
+VARIABLES
+--------------------------------*/
+
+@import "./core/helpers/variables";
+//@import "./core/helpers/starter";
+@import "./core/helpers/normalize";
 
 
 /*--------------------------------

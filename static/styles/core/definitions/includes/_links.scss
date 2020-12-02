@@ -1,0 +1,10 @@
+%lien {
+    color : $primary-01;
+    font-family : 'Ubuntu';
+    cursor : pointer;
+    text-decoration : none;
+}
+
+%lien:hover {
+    text-decoration : underline;
+}

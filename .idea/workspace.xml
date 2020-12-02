@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/ADELIOM/PROJETS/projets/adeliom-formation/web/wp-content/themes/AdeliomFormation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DAVY/ADELIOM/adeliomgit-dauphine-scss-5b4b9d68cc7b" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="SvnConfiguration">
@@ -64,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606917999604</updated>
       <workItem from="1606918000796" duration="695000" />
-      <workItem from="1606919761335" duration="1451000" />
+      <workItem from="1606919761335" duration="1521000" />
     </task>
     <servers />
   </component>
@@ -83,9 +83,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606919138743">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606923257936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606919138743" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606923257936" />
   </component>
 </project>

@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA;;kCAEkC;AAKlC;;kCAEkC;AAIlC;;kCAEkC",
     "sources": [
-        "../../static/styles/global.scss"
+        "../../static/styles/global.scss",
+        "../../static/styles/core/helpers/_variables.scss",
+        "../../static/styles/core/definitions/_definitions.scss",
+        "../../static/styles/core/definitions/includes/_btn.scss",
+        "../../static/styles/components/cards/_news.scss"
     ],
     "names": [],
     "file": "global.css"

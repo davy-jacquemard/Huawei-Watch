@@ -8,19 +8,27 @@
 	    Colors (Same variables as Figma)
 /* ===================*/
 
-$primary-color      : #252428;
-$primary-black      : $primary-color;
-$secondary-01       : #E62A4D;
-$secondary-02       : #bbb;
-$text-color         : $primary-color;
+$primary-black      : #141416;
+$primary-white      : #FAFAFA;
+$secondary-turquoise: #24B5B4;
+$secondary-purple   : #774594;
+$secondary-orange   : #EE753B;
+$text-color-black         : $primary-black;
+$text-color-black         : $primary-white;
 
 $white              : #fff;
 $black              : #000;
 
 $gray-01            : #616B75;
 $gray-02            : #A6B0B9;
-$gray-03            : #D3DAE0;
+$gray-03            : #EAEAEA;
 $gray-04            : #E1E7ED;
+
+$gradient-turquoise : #24B5B4;
+$gradient-purple    : #774594;
+$gradient-orange    : #F9AF19;
+$gradient-turquoise-purple : linear-gradient(270deg, $gradient-turquoise 100%,$gradient-purple 100%);
+
 
 $overlay-color      : #bbb;
 $line-color         : #bbb;

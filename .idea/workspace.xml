@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="F:/ADELIOM/PROJETS/projets/adeliom-formation/web/wp-content/themes/AdeliomFormation" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606917999604</updated>
       <workItem from="1606918000796" duration="695000" />
+      <workItem from="1606919761335" duration="422000" />
     </task>
     <servers />
   </component>

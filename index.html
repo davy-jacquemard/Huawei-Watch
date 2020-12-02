@@ -7,7 +7,84 @@
 </head>
 <body>
 
-    <h3>test florent</h3>
+    <div class="container">
+        <h1 class="h1">Title level 1</h1><br>
+        <h2 class="h2">Title level 2</h2><br>
+        <h3 class="h3">Title level 3</h3><br>
+        <h4 class="h4">Title level 4</h4><br>
+        <h5 class="h5">Title level 5</h5><br>
+        <div class="headline">Headline</div>
+        <div class="subtitle">Subtitle</div>
+        <p class="p--large">Large text</p>
+        <p class="p--medium">Medium text</p>
+        <p class="p">Normal text</p>
+        <p class="p--small">Small text</p>
+        <br><br><br>
+      
+        <a class="btn btn--primary">Button</a>
+        <br><br>
+        <a class="btn btn--outline">Button</a>
+        <br><br>
+        <a class="btn btn--disabled">Button</a>
+        <br><br>
+        <a class="btn btn--primary btn--big">Button</a>
+        <br><br>
+        <a class="btn btn--outline btn--big">Button</a>
+        <br><br>
+        <a class="btn btn--disabled btn--big">Button</a>
+        <br><br>
+        {#<a class="read-more"><span class="btn-icon icon-arrowright"></span><span class="text-in">Button</span></a>#}
+        {#<br><br>#}
+        {#<a class="read-more--disabled"><span class="btn-icon icon-arrowright"></span><span#}
+            {#class="text-in">Button</span></a>#}
+        <br><br>
+        <div class="read-more">Button</div>
+        <br><br>
+        <div class="read-more--disabled">Button</div>
+        <br><br>
+        <a href="#">
+          {% include './components/toolkit/_btn.html.twig' with {obj: {
+            label: "Lire plus",
+            iconClass: "arrowright"
+          }} %}
+        </a>
+        <br><br>
+        <a href="#">
+          {% include './components/toolkit/_btn.html.twig' with {obj: {
+            label: "Lire plus",
+            isDisabled: true,
+            iconClass: "arrowleft"
+          }} %}
+        </a>
+        <br><br><br>
+        <div class="container">
+          {{ function('do_shortcode', '[gravityform id="1" title=false description=false ajax=true tabindex=49]') }}
+        </div>
+        <br><br><br>
+        <div class="wysiwyg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Go to <a href="#">www.adeliom.com</a>, nisl quis luctus
+            tempor, lacus diam ullamcorper justo, eu elementum nulla massa nec eros. Integer tempor magna libero.</p>
+          <ul class="primary-list">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+            <li>Nullam nulla felis, aliquam</li>
+            <li>Aliquam hendrerit felis sem, sed faucibus augue laoreet a</li>
+          </ul>
+          <h3>Je suis un titre h3 dans un wywisyg</h3>
+          <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+            <li>Nullam nulla felis, aliquam</li>
+            <li>Aliquam hendrerit felis sem, sed faucibus augue laoreet a</li>
+          </ol>
+        </div>
+      </div>
+      
+      <br> <br>
+
+      
+      
+      
+      
+      
 
 </body>
 </html>

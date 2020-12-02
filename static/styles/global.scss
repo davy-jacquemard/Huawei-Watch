@@ -3,6 +3,8 @@ VARIABLES
 --------------------------------*/
 
 @import "./core/helpers/variables";
+@import "./core/helpers/starter";
+@import "./core/helpers/normalize";
 
 /*--------------------------------
 MIXINS
@@ -22,3 +24,9 @@ COMPONENTS
 --------------------------------*/
 
 @import "./components/cards/news";
+
+/*--------------------------------
+FORM
+--------------------------------*/
+
+@import "./components/form/form";

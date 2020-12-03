@@ -1,44 +1,45 @@
+// définition du texte par défaut (police, couleur, épaisseur)
+
 %texts-default {
     font-family: $font-primary;
     color: $gray-01;
     font-weight: 400;
 }
 
-
-// polices des textes courants pour un background blanc
-
-.p--large {
-    @extend %texts-default;
-    @include font-size(rem(24), rem(34));
-}
-
-.p--medium {
-    @extend %texts-default;
-    @include font-size(rem(18), rem(29));
-
-    @include breakpoint(sm) {
-        @include font-size(rem(20), rem(32));
-    }
-}
+// polices des textes courants 
 
 .p {
     @extend %texts-default;
-        @include font-size(rem(14), rem(22));
+    @include font-size(rem(14), rem(22));
 
     @include breakpoint(sm) {
         @include font-size(rem(16), rem(25));
     }
 
-    &--bold {
-        font-weight: 700;
+    &--small {
+        @extend %texts-default;
+        @include font-size(rem(12), rem(19));
+
+        @include breakpoint(sm) {
+            @include font-size(rem(14), rem(22));
         }
     }
 
-.p--small {
-    @extend %texts-default;
-    @include font-size(rem(12), rem(19));
+    &--medium {
+        @extend %texts-default;
+        @include font-size(rem(18), rem(29));
 
-    @include breakpoint(sm) {
-        @include font-size(rem(14), rem(22));
+        @include breakpoint(sm) {
+            @include font-size(rem(20), rem(32));
+        }
+    }
+
+    &--large {
+        @extend %texts-default;
+        @include font-size(rem(24), rem(34));
+    }
+
+    &--bold {
+        font-weight: 700;
     }
 }

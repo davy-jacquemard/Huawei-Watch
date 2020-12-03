@@ -1,185 +1,44 @@
-%texts-default-bg-white {
+%texts-default {
     font-family: $font-primary;
     color: $gray-01;
+    font-weight: 400;
 }
 
-%texts-default-bg-black {
-    font-family: $font-primary;
-    color: $primary-white;
-}
 
 // polices des textes courants pour un background blanc
 
 .p--large {
-    @extend %texts-default-bg-white;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
+    @extend %texts-default;
+    @include font-size(rem(24), rem(34));
 }
 
 .p--medium {
-    @extend %texts-default-bg-white;
-    @include font-size(rem(), rem());
+    @extend %texts-default;
+    @include font-size(rem(18), rem(29));
 
     @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
+        @include font-size(rem(20), rem(32));
     }
 }
 
 .p {
-    @extend %texts-default-bg-white;
-    @include font-size(rem(), rem());
+    @extend %texts-default;
+        @include font-size(rem(14), rem(22));
 
     @include breakpoint(sm) {
-        @include font-size(rem(), rem());
+        @include font-size(rem(16), rem(25));
     }
 
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
+    &--bold {
+        font-weight: 700;
+        }
     }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-.p--bold {
-    @extend %texts-default-bg-white;
-    font-weight: bold;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
 
 .p--small {
-    @extend %texts-default-bg-white;
-    @include font-size(rem(), rem());
+    @extend %texts-default;
+    @include font-size(rem(12), rem(19));
 
     @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-// polices des textes courants pour un background noir
-
-.p--large-bg-black {
-    @extend %texts-default-bg-black;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-.p--medium-bg-black {
-    @extend %texts-default-bg-black;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-.p-bg-black {
-    @extend %texts-default-bg-black;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-.p--bold-bg-black {
-    @extend %texts-default-bg-black;
-    font-weight: bold;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
-    }
-}
-
-.p--small-bg-black {
-    @extend %texts-default-bg-black;
-    @include font-size(rem(), rem());
-
-    @include breakpoint(sm) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(lg) {
-        @include font-size(rem(), rem());
-    }
-
-    @include breakpoint(xlg) {
-        @include font-size(rem(), rem());
+        @include font-size(rem(14), rem(22));
     }
 }

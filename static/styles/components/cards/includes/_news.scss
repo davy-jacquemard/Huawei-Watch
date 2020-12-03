@@ -1,7 +1,7 @@
 
 // container review
 .news-container {
-    @include flex-col(2);
+    @include flex-col(3);
     border-radius: 8px;
     border-left: 1px solid $secondary-03;
 }

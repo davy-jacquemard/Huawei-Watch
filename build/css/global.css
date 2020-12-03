@@ -1551,16 +1551,22 @@ ol {
   counter-reset: li;
 }
 
-li {
+.li {
   line-height: 2rem;
   counter-increment: li;
 }
 
-li::before {
+.li --decimal::before {
   content: counter(li) ".";
   color: #24B5B4;
   font-weight: 700;
   margin-right: 0.5rem;
+}
+
+.li --dots {
+  content: "•";
+  padding-right: 8px;
+  color: green;
 }
 
 /*--------------------------------

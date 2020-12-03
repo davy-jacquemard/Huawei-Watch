@@ -1,15 +1,27 @@
-
 ol {
-    counter-reset : li;
+    counter-reset: li;
 }
 
-li {
-    &::before {
-        content : counter(li)".";
-        color : $secondary-01;
-        font-weight : 700;
-        margin-right: 0.5rem;
+.li {
+    --decimal {
+
+        &::before {
+            content: counter(li)".";
+            color: $secondary-01;
+            font-weight: 700;
+            margin-right: 0.5rem;
+        }
     }
+
+    --dots {
+
+        &&::before {
+            content: "•";
+            color: $secondary-01;
+        }
+
+    }
+
     line-height : 2rem;
     counter-increment : li;
 }

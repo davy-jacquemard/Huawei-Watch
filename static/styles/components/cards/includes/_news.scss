@@ -5,6 +5,7 @@
 }
 
 .card-news {
+<<<<<<< Updated upstream
     background: $primary-white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -17,4 +18,11 @@
         padding: 5px 10px;
         background: $secondary-03;
     }
+=======
+    max-width: 28em;
+    height: 28em;
+    border-radius: 0.8em;
+    background-color: $primary-white;
+    box-shadow: $box-shadow;
+>>>>>>> Stashed changes
 }

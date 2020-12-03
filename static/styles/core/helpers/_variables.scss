@@ -1,5 +1,5 @@
 //@import "../fonts/_font-roboto";
-//@import "../fonts/font-galano-grotesque";
+@import "../fonts/font-gilroy";
 //@import "../fonts/font-icomoon";
 //@import "../../../fonts/icomoon/variables";
 //@import "../../../fonts/icomoon/style.scss";
@@ -28,8 +28,8 @@ $gray-04            : #E1E7ED;
 
 
 
-$gradient-turquoise-purple : linear-gradient(270deg, $secondary-turquoise 100%,$secondary-purple 100%);
-$gradient-orange-yellow : linear-gradient(270deg, $secondary-orange 100%,$gradient-yellow 100%);
+$gradient-turquoise-purple : linear-gradient(270deg, $secondary-turquoise 100%, $secondary-purple 100%);
+
 
 
 
@@ -52,7 +52,7 @@ $box-shadow-hover-top      : 0 -5px 40px -5px rgba($black, 0.35);
 	    Fonts
 /* ===================*/
 
-$font-primary-regular : 'Ubuntu Regular', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+$font-primary-regular : 'gilroy', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 $font-primary-bold : 'Ubuntu Bold', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 /* $font-primary-alt-bold : 'galano_grotesque_alt_bold', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif; */
 

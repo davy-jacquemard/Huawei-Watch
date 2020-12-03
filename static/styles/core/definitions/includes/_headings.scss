@@ -1,5 +1,5 @@
 %headings-default {
-    font-family: $font-primary-regular;
+    font-family: $font-secondary;
     color: $black;
   }
   
@@ -59,7 +59,7 @@
   
   .headline{
     //@extend %headings-default;
-    font-family: $font-primary-bold ;
+    font-family: $font-secondary ;
     color:$secondary-01;
     text-transform: uppercase;
     letter-spacing: 0.1em;

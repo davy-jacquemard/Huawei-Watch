@@ -1,4 +1,4 @@
-//@import "../fonts/_font-roboto";
+@import "../fonts/font-ubuntu";
 @import "../fonts/font-gilroy";
 //@import "../fonts/font-icomoon";
 //@import "../../../fonts/icomoon/variables";
@@ -52,9 +52,8 @@ $box-shadow-hover-top      : 0 -5px 40px -5px rgba($black, 0.35);
 	    Fonts
 /* ===================*/
 
-$font-primary-regular : 'gilroy', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-$font-primary-bold : 'Ubuntu Bold', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
-/* $font-primary-alt-bold : 'galano_grotesque_alt_bold', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif; */
+$font-secondary : 'gilroy', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+$font-primary : 'Ubuntu', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 
 /* ===================
     Config

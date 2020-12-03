@@ -7,16 +7,8 @@
 
 }
 
-ol {
-    list-style-type : none;
-    counter-reset : compteur;
-}
-
 ol li {
-    counter-increment : compteur;
     &:before {
-        margin-right : (rem(1));
-        content : counter(compteur) ")";
-        @extend %num-list-style;
+       @extend %num-list-style;
     }
 }

@@ -1,0 +1,9 @@
+@import "./core/mixins/news";
+
+.reviewcontainer{
+    @include card();
+
+    max-height: 44.6em;
+    height: 44,6em;
+
+}

@@ -1,11 +1,14 @@
-.newscontainer{
+
+@mixin card{
     max-width: 28em;
     height: 28em;
-    max-height: 44.6em;
-    height: 44,6em;
     border-radius: 0.8em;
     background-color: $primary-white;
     box-shadow: $box-shadow;
 
+}
+
+.cardcontainer{
+    @include card();
 
 }

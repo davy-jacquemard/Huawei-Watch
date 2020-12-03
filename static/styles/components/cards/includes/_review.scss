@@ -1,0 +1,12 @@
+
+.card-review {
+    max-width: 28em;
+    height: 28em;
+    border-radius: 0.8em;
+    background-color: $primary-white;
+    box-shadow: $box-shadow;
+
+    &__title{
+        text-align: center;
+    }
+}

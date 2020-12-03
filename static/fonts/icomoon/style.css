@@ -1,349 +1,438 @@
+@charset "UTF-8";
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?xkcdrb');
-  src:  url('fonts/icomoon.eot?xkcdrb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?xkcdrb') format('truetype'),
-    url('fonts/icomoon.woff?xkcdrb') format('woff'),
-    url('fonts/icomoon.svg?xkcdrb#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("./../../static/fonts/icomoon/fonts/icomoon.eot?xkcdrb");
+  src: url("./../../static/fonts/icomoon/fonts/icomoon.eot?xkcdrb#iefix") format("embedded-opentype"), url("./../../static/fonts/icomoon/fonts/icomoon.ttf?xkcdrb") format("truetype"), url("./../../static/fonts/icomoon/fonts/icomoon.woff?xkcdrb") format("woff"), url("./../../static/fonts/icomoon/fonts/icomoon.svg?xkcdrb#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-.icon {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-add:before {
-  content: "\e900";
+  content: "";
 }
+
 .icon-addlocation:before {
-  content: "\e901";
+  content: "";
 }
+
 .icon-arrowback:before {
-  content: "\e902";
+  content: "";
 }
+
 .icon-arrowbotom:before {
-  content: "\e903";
+  content: "";
 }
+
 .icon-arrowright:before {
-  content: "\e904";
+  content: "";
 }
+
 .icon-arrowup:before {
-  content: "\e905";
+  content: "";
 }
+
 .icon-avatar:before {
-  content: "\e906";
+  content: "";
 }
+
 .icon-bullet:before {
-  content: "\e907";
+  content: "";
 }
+
 .icon-calendar:before {
-  content: "\e908";
+  content: "";
 }
+
 .icon-cards:before {
-  content: "\e909";
+  content: "";
 }
+
 .icon-chat:before {
-  content: "\e90a";
+  content: "";
 }
+
 .icon-check:before {
-  content: "\e90b";
+  content: "";
 }
+
 .icon-close:before {
-  content: "\e90c";
+  content: "";
 }
+
 .icon-comments:before {
-  content: "\e90d";
+  content: "";
 }
+
 .icon-creditcard:before {
-  content: "\e90e";
+  content: "";
 }
+
 .icon-date:before {
-  content: "\e90f";
+  content: "";
 }
+
 .icon-delete:before {
-  content: "\e910";
+  content: "";
 }
+
 .icon-doc:before {
-  content: "\e911";
+  content: "";
 }
+
 .icon-download:before {
-  content: "\e912";
+  content: "";
 }
+
 .icon-edit:before {
-  content: "\e913";
+  content: "";
 }
+
 .icon-electric:before {
-  content: "\e914";
+  content: "";
 }
+
 .icon-euros:before {
-  content: "\e915";
+  content: "";
 }
+
 .icon-eye:before {
-  content: "\e916";
+  content: "";
 }
+
 .icon-eye-blind:before {
-  content: "\e917";
+  content: "";
 }
+
 .icon-filter:before {
-  content: "\e918";
+  content: "";
 }
+
 .icon-home:before {
-  content: "\e919";
+  content: "";
 }
+
 .icon-huawei-add-user .path1:before {
-  content: "\e91a";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-add-user .path2:before {
-  content: "\e91b";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-chat .path1:before {
-  content: "\e91c";
-  color: rgb(38, 180, 178);
+  content: "";
+  color: #26b4b2;
 }
+
 .icon-huawei-chat .path2:before {
-  content: "\e91d";
+  content: "";
   margin-left: -1em;
-  color: rgb(38, 180, 178);
+  color: #26b4b2;
 }
+
 .icon-huawei-chat .path3:before {
-  content: "\e91e";
+  content: "";
   margin-left: -1em;
-  color: rgb(237, 117, 60);
+  color: #ed753c;
 }
+
 .icon-huawei-contact-list .path1:before {
-  content: "\e91f";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-contact-list .path2:before {
-  content: "\e920";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-edit .path1:before {
-  content: "\e921";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-edit .path2:before {
-  content: "\e922";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-email .path1:before {
-  content: "\e923";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-email .path2:before {
-  content: "\e924";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-group-chat .path1:before {
-  content: "\e925";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-group-chat .path2:before {
-  content: "\e926";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-link .path1:before {
-  content: "\e927";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-link .path2:before {
-  content: "\e928";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-notification .path1:before {
-  content: "\e929";
-  color: rgb(38, 180, 178);
+  content: "";
+  color: #26b4b2;
 }
+
 .icon-huawei-notification .path2:before {
-  content: "\e92a";
+  content: "";
   margin-left: -1em;
-  color: rgb(237, 117, 60);
+  color: #ed753c;
 }
+
 .icon-huawei-review .path1:before {
-  content: "\e92b";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-review .path2:before {
-  content: "\e92c";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-search .path1:before {
-  content: "\e92d";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-search .path2:before {
-  content: "\e92e";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-smartphone .path1:before {
-  content: "\e92f";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-smartphone .path2:before {
-  content: "\e930";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-thumbs-up .path1:before {
-  content: "\e931";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-thumbs-up .path2:before {
-  content: "\e932";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-thumbs-up .path3:before {
-  content: "\e933";
+  content: "";
   margin-left: -1em;
-  color: rgb(36, 181, 180);
+  color: #24b5b4;
 }
+
 .icon-huawei-user .path1:before {
-  content: "\e934";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-user .path2:before {
-  content: "\e935";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-huawei-video-player .path1:before {
-  content: "\e936";
-  color: rgb(36, 181, 180);
+  content: "";
+  color: #24b5b4;
 }
+
 .icon-huawei-video-player .path2:before {
-  content: "\e937";
+  content: "";
   margin-left: -1em;
-  color: rgb(238, 117, 59);
+  color: #ee753b;
 }
+
 .icon-info:before {
-  content: "\e938";
+  content: "";
 }
+
 .icon-lightbulb:before {
-  content: "\e939";
+  content: "";
 }
+
 .icon-link:before {
-  content: "\e93a";
+  content: "";
 }
+
 .icon-list:before {
-  content: "\e93b";
+  content: "";
 }
+
 .icon-mail:before {
-  content: "\e93c";
+  content: "";
 }
+
 .icon-menu:before {
-  content: "\e93d";
+  content: "";
 }
+
 .icon-miniarrowbottom:before {
-  content: "\e93e";
+  content: "";
 }
+
 .icon-miniarrowleft:before {
-  content: "\e93f";
+  content: "";
 }
+
 .icon-miniarrowright:before {
-  content: "\e940";
+  content: "";
 }
+
 .icon-miniarrowup:before {
-  content: "\e941";
+  content: "";
 }
+
 .icon-minicards:before {
-  content: "\e942";
+  content: "";
 }
+
 .icon-minimize:before {
-  content: "\e943";
+  content: "";
 }
+
 .icon-more:before {
-  content: "\e944";
+  content: "";
 }
+
 .icon-mylocation:before {
-  content: "\e945";
+  content: "";
 }
+
 .icon-navigation:before {
-  content: "\e946";
+  content: "";
 }
+
 .icon-phone:before {
-  content: "\e947";
+  content: "";
 }
+
 .icon-play:before {
-  content: "\e948";
+  content: "";
 }
+
 .icon-question:before {
-  content: "\e949";
+  content: "";
 }
+
 .icon-reload:before {
-  content: "\e94a";
+  content: "";
 }
+
 .icon-satisfaction:before {
-  content: "\e94b";
+  content: "";
 }
+
 .icon-schedule:before {
-  content: "\e94c";
+  content: "";
 }
+
 .icon-search:before {
-  content: "\e94d";
+  content: "";
 }
+
 .icon-share:before {
-  content: "\e94e";
+  content: "";
 }
+
 .icon-social-facebook:before {
-  content: "\e94f";
+  content: "";
 }
+
 .icon-social-instagram:before {
-  content: "\e950";
+  content: "";
 }
+
 .icon-social-linkedin:before {
-  content: "\e951";
+  content: "";
 }
+
 .icon-social-pinterest:before {
-  content: "\e952";
+  content: "";
 }
+
 .icon-social-twitter:before {
-  content: "\e953";
+  content: "";
 }
+
 .icon-social-viadeo:before {
-  content: "\e954";
+  content: "";
 }
+
 .icon-social-vimeo:before {
-  content: "\e955";
+  content: "";
 }
+
 .icon-social-youtube:before {
-  content: "\e956";
+  content: "";
 }
+
 .icon-star:before {
-  content: "\e957";
+  content: "";
 }
+
 .icon-star-empty:before {
-  content: "\e958";
+  content: "";
 }
+
 .icon-star-half:before {
-  content: "\e959";
+  content: "";
 }
+
 .icon-touch:before {
-  content: "\e95a";
+  content: "";
 }
+
 .icon-work:before {
-  content: "\e95b";
+  content: "";
 }
+/*# sourceMappingURL=style.css.map */

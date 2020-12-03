@@ -1556,17 +1556,18 @@ ol {
   counter-increment: li;
 }
 
-.li --decimal::before {
+.li--decimal::before {
   content: counter(li) ".";
   color: #24B5B4;
   font-weight: 700;
   margin-right: 0.5rem;
 }
 
-.li --dots {
+.li--dots::before {
   content: "•";
-  padding-right: 8px;
-  color: green;
+  color: #24B5B4;
+  margin-right: 0.5rem;
+  font-size : 1rem;
 }
 
 /*--------------------------------

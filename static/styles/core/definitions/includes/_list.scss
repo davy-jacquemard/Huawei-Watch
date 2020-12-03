@@ -1,6 +1,11 @@
 ol {
     list-style-type : decimal;
-    color : $secondary-01;
-    font-weight : 700;
-    margin-right : rem((1));
+}
+
+li {
+    &::before {
+        color : $secondary-01;
+        font-weight : 700;
+        margin-right : rem((1));
+    }
 }

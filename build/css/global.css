@@ -655,7 +655,7 @@ DEFINITIONS
   }
 }
 
-.lien {
+.link {
   color: #24B5B4;
   font-family: 'Ubuntu';
   cursor: pointer;
@@ -675,4 +675,59 @@ FORM
 /*--------------------------------
 FORM
 --------------------------------*/
+input {
+  border: none;
+  border-bottom: 1px #A6B0B9 solid;
+  padding: 5px 0;
+  color: #141416;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input::-webkit-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input:-ms-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input::-ms-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input::placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #24B5B4;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #141416;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #141416;
+}
+
+input:focus::-ms-input-placeholder {
+  color: #141416;
+}
+
+input:focus::placeholder {
+  color: #141416;
+}
+
+label {
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  color: #141416;
+  display: block;
+  margin-bottom: 8px;
+}
 /*# sourceMappingURL=global.css.map */

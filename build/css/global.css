@@ -1552,20 +1552,32 @@ DEFINITIONS
   text-decoration: underline;
 }
 
-ol {
+.primary-list {
   counter-reset: li;
 }
 
-li {
+.li--decimal {
   line-height: 2rem;
   counter-increment: li;
 }
 
-li::before {
+.li--decimal::before {
   content: counter(li) ".";
   color: #24B5B4;
   font-weight: 700;
   margin-right: 0.5rem;
+}
+
+.li--dots {
+  line-height: 2rem;
+}
+
+.li--dots::before {
+  content: "•";
+  color: #24B5B4;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  vertical-align: bottom;
 }
 
 /*--------------------------------

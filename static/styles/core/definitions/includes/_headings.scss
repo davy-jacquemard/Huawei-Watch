@@ -1,9 +1,9 @@
-%headings-default {
+.headings-default {
     font-family: $font-primary-alt-bold;
     color: $black;
   }
   
-  %h1 {
+  .h1 {
     @extend %headings-default;
     @include font-size(rem(25), rem(35));
     @include breakpoint(sm) {
@@ -17,7 +17,7 @@
     }
   }
   
-  %h2 {
+  .h2 {
     @extend %headings-default;
     @include font-size(rem(20), rem(24));
     @include breakpoint(sm) {
@@ -28,7 +28,7 @@
     }
   }
   
-  %h3 {
+  .h3 {
     @extend %headings-default;
     @include font-size(rem(19), rem(22));
     @include breakpoint(sm) {
@@ -39,7 +39,7 @@
     }
   }
   
-  %h4 {
+  .h4 {
     @extend %headings-default;
     @include font-size(rem(18), rem(23));
   
@@ -51,13 +51,13 @@
     }
   }
   
-  %h5 {
+  .h5 {
     @extend %headings-default;
     @include font-size(rem(18), rem(23));
   }
   
   
-  %headline{
+  .headline{
     //@extend %headings-default;
     font-family: $font-primary-bold ;
     color:$secondary-01;

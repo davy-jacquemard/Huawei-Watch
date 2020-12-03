@@ -1,7 +1,9 @@
 
 // container review
 .news-container {
-    @include flex-col(3);
+    @include flex-col(2);
+    border-radius: 8px;
+    border-left: 1px solid $secondary-03;
 }
 
 .card-news {
@@ -15,8 +17,17 @@
         border-top-right-radius: 8px;
     }
     &__category {
-        padding: 5px 10px;
+        margin: 0;
+        padding: rem(8) rem(16);
         background: $secondary-03;
+        transform: translate(0, -50%);
+        display: inline-block;
+        border-radius: 8px;
+        text-transform: uppercase;
+        color: $primary-white;
+        font-family: $font-secondary;
+        font-weight: 400;
+        margin-left: 24px;
     }
 =======
     max-width: 28em;

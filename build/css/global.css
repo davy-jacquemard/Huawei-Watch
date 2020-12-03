@@ -1247,11 +1247,13 @@ COMPONENTS
 --------------------------------*/
 .news-container {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
-  max-width: 25%;
+      -ms-flex: 0 0 16.66667%;
+          flex: 0 0 16.66667%;
+  max-width: 16.66667%;
   padding-left: 6px;
   padding-right: 6px;
+  border-radius: 8px;
+  border-left: 1px solid #EE753B;
 }
 
 @media (min-width: 720px) {
@@ -1279,8 +1281,18 @@ COMPONENTS
 }
 
 .card-news__category {
-  padding: 5px 10px;
+  margin: 0;
+  padding: 8px 16px;
   background: #EE753B;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  font-family: "gilroy", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  margin-left: 24px;
 }
 
 .card-review {

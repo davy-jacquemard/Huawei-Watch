@@ -34,33 +34,14 @@
         <br><br>
         <a class="btn btn--disabled btn--big">Button</a>
         <br><br>
-        {#<a class="read-more"><span class="btn-icon icon-arrowright"></span><span class="text-in">Button</span></a>#}
-        {#<br><br>#}
-        {#<a class="read-more--disabled"><span class="btn-icon icon-arrowright"></span><span#}
-            {#class="text-in">Button</span></a>#}
+      
         <br><br>
         <div class="read-more">Button</div>
         <br><br>
         <div class="read-more--disabled">Button</div>
         <br><br>
-        <a href="#">
-          {% include './components/toolkit/_btn.html.twig' with {obj: {
-            label: "Lire plus",
-            iconClass: "arrowright"
-          }} %}
-        </a>
-        <br><br>
-        <a href="#">
-          {% include './components/toolkit/_btn.html.twig' with {obj: {
-            label: "Lire plus",
-            isDisabled: true,
-            iconClass: "arrowleft"
-          }} %}
-        </a>
-        <br><br><br>
-        <div class="container">
-          {{ function('do_shortcode', '[gravityform id="1" title=false description=false ajax=true tabindex=49]') }}
-        </div>
+     
+      
         <br><br><br>
 
         <div class="wysiwyg">
@@ -86,7 +67,8 @@
         </div>
         <br> <br>
 
-        <div class="news-container">
+        <div class="row">
+            <div class="news-container">
           <div class="card-news">
             <img src="https://www.mega-gear.net/modules/psblog/uploads/repos%20muscu.png" alt="muscu">
             <p class="card-news__category">sport</p>
@@ -97,6 +79,9 @@
             <a href="" class="card-news__links">Lire plus</a>
         </div>
         </div>
+        </div>
+
+      
         <br> <br>
 
         <div class="card-review">
@@ -107,12 +92,6 @@
         </div>
 
       </div>
-      
-
-
-      
-      
-      
       
 
 </body>

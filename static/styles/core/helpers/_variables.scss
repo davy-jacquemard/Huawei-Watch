@@ -10,10 +10,10 @@
 
 $primary-black      : #141416;
 $primary-white      : #FAFAFA;
-$secondary-turquoise: #24B5B4;
-$secondary-purple   : #774594;
-$secondary-orange   : #EE753B;
-$secondary-yellow   : #F9AF19;
+$secondary-01       : #24B5B4;
+$secondary-02       : #774594;
+$secondary-03       : #EE753B;
+$secondary-04       : #F9AF19;
 
 $text-color-black         : $primary-black;
 $text-color-black         : $primary-white;
@@ -28,7 +28,7 @@ $gray-04            : #E1E7ED;
 
 
 
-$gradient-turquoise-purple : linear-gradient(270deg, $secondary-turquoise 100%, $secondary-purple 100%);
+$gradient-turquoise-purple : linear-gradient(270deg, $secondary-turquoise 100%,$secondary-purple 100%);
 
 
 

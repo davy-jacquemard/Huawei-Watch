@@ -65,6 +65,7 @@
       <updated>1606917999604</updated>
       <workItem from="1606918000796" duration="695000" />
       <workItem from="1606919761335" duration="1521000" />
+      <workItem from="1607009960196" duration="1014000" />
     </task>
     <servers />
   </component>
@@ -81,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606923257936">

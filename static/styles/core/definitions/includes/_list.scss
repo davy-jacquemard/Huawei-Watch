@@ -1,18 +1,14 @@
-%num-list-style {
-    color: $secondary-01;
-    font-weight: 700;
-    font-family: $font-primary;
-    @include font-size(rem(16), rem(25));
 
-
+ol {
+    counter-reset : li
 }
 
-ol ul {
-    list-style-type : decimal;
-}
 
-ol li {
-    &:before {
-       @extend %num-list-style;
+li {
+    &::before {
+        content : counter(li);
+        color : $secondary-01;
+        font-weight : 700;
+        margin-right : rem((1));
     }
 }

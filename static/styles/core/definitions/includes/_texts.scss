@@ -1,0 +1,185 @@
+%texts-default-bg-white {
+    font-family: $font-primary;
+    color: $gray-01;
+}
+
+%texts-default-bg-black {
+    font-family: $font-primary;
+    color: $primary-white;
+}
+
+// polices des textes courants pour un background blanc
+
+.p--large {
+    @extend %texts-default-bg-white;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--medium {
+    @extend %texts-default-bg-white;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p {
+    @extend %texts-default-bg-white;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--bold {
+    @extend %texts-default-bg-white;
+    font-weight: bold;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--small {
+    @extend %texts-default-bg-white;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+// polices des textes courants pour un background noir
+
+.p--large-bg-black {
+    @extend %texts-default-bg-black;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--medium-bg-black {
+    @extend %texts-default-bg-black;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p-bg-black {
+    @extend %texts-default-bg-black;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--bold-bg-black {
+    @extend %texts-default-bg-black;
+    font-weight: bold;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}
+
+.p--small-bg-black {
+    @extend %texts-default-bg-black;
+    @include font-size(rem(), rem());
+
+    @include breakpoint(sm) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(lg) {
+        @include font-size(rem(), rem());
+    }
+
+    @include breakpoint(xlg) {
+        @include font-size(rem(), rem());
+    }
+}

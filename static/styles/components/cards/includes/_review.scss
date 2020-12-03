@@ -5,8 +5,41 @@
     border-radius: 0.8em;
     background-color: $primary-white;
     box-shadow: $box-shadow;
+    box-sizing: border-box;
+    padding: 3em;
 
     &__title{
         text-align: center;
+    }
+
+    &__stars-container{
+        max-width: 25em;
+            ul{
+                display: flex;
+                flex-direction: row;
+                list-style-type:none;
+                width: 100%;
+
+            }
+        
+            li{
+                width: 5em;
+            }
+        
+    }
+
+    &__black-bar{
+        width: 20%;
+        height: .2em;
+        background-color: $primary-black;
+        margin: 1.6em auto 1.6em auto;
+    }
+
+    &__desc{
+        margin: 0 auto 0 auto;
+
+            p{
+                margin: .8em 0 0 0;
+            }
     }
 }

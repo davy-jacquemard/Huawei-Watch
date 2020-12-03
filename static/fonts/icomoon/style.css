@@ -1,0 +1,349 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xkcdrb');
+  src:  url('fonts/icomoon.eot?xkcdrb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xkcdrb') format('truetype'),
+    url('fonts/icomoon.woff?xkcdrb') format('woff'),
+    url('fonts/icomoon.svg?xkcdrb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "\e900";
+}
+.icon-addlocation:before {
+  content: "\e901";
+}
+.icon-arrowback:before {
+  content: "\e902";
+}
+.icon-arrowbotom:before {
+  content: "\e903";
+}
+.icon-arrowright:before {
+  content: "\e904";
+}
+.icon-arrowup:before {
+  content: "\e905";
+}
+.icon-avatar:before {
+  content: "\e906";
+}
+.icon-bullet:before {
+  content: "\e907";
+}
+.icon-calendar:before {
+  content: "\e908";
+}
+.icon-cards:before {
+  content: "\e909";
+}
+.icon-chat:before {
+  content: "\e90a";
+}
+.icon-check:before {
+  content: "\e90b";
+}
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-comments:before {
+  content: "\e90d";
+}
+.icon-creditcard:before {
+  content: "\e90e";
+}
+.icon-date:before {
+  content: "\e90f";
+}
+.icon-delete:before {
+  content: "\e910";
+}
+.icon-doc:before {
+  content: "\e911";
+}
+.icon-download:before {
+  content: "\e912";
+}
+.icon-edit:before {
+  content: "\e913";
+}
+.icon-electric:before {
+  content: "\e914";
+}
+.icon-euros:before {
+  content: "\e915";
+}
+.icon-eye:before {
+  content: "\e916";
+}
+.icon-eye-blind:before {
+  content: "\e917";
+}
+.icon-filter:before {
+  content: "\e918";
+}
+.icon-home:before {
+  content: "\e919";
+}
+.icon-huawei-add-user .path1:before {
+  content: "\e91a";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-add-user .path2:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-chat .path1:before {
+  content: "\e91c";
+  color: rgb(38, 180, 178);
+}
+.icon-huawei-chat .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(38, 180, 178);
+}
+.icon-huawei-chat .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(237, 117, 60);
+}
+.icon-huawei-contact-list .path1:before {
+  content: "\e91f";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-contact-list .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-edit .path1:before {
+  content: "\e921";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-edit .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-email .path1:before {
+  content: "\e923";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-email .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-group-chat .path1:before {
+  content: "\e925";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-group-chat .path2:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-link .path1:before {
+  content: "\e927";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-link .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-notification .path1:before {
+  content: "\e929";
+  color: rgb(38, 180, 178);
+}
+.icon-huawei-notification .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(237, 117, 60);
+}
+.icon-huawei-review .path1:before {
+  content: "\e92b";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-review .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-search .path1:before {
+  content: "\e92d";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-search .path2:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-smartphone .path1:before {
+  content: "\e92f";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-smartphone .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-thumbs-up .path1:before {
+  content: "\e931";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-thumbs-up .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-thumbs-up .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-user .path1:before {
+  content: "\e934";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-user .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-huawei-video-player .path1:before {
+  content: "\e936";
+  color: rgb(36, 181, 180);
+}
+.icon-huawei-video-player .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(238, 117, 59);
+}
+.icon-info:before {
+  content: "\e938";
+}
+.icon-lightbulb:before {
+  content: "\e939";
+}
+.icon-link:before {
+  content: "\e93a";
+}
+.icon-list:before {
+  content: "\e93b";
+}
+.icon-mail:before {
+  content: "\e93c";
+}
+.icon-menu:before {
+  content: "\e93d";
+}
+.icon-miniarrowbottom:before {
+  content: "\e93e";
+}
+.icon-miniarrowleft:before {
+  content: "\e93f";
+}
+.icon-miniarrowright:before {
+  content: "\e940";
+}
+.icon-miniarrowup:before {
+  content: "\e941";
+}
+.icon-minicards:before {
+  content: "\e942";
+}
+.icon-minimize:before {
+  content: "\e943";
+}
+.icon-more:before {
+  content: "\e944";
+}
+.icon-mylocation:before {
+  content: "\e945";
+}
+.icon-navigation:before {
+  content: "\e946";
+}
+.icon-phone:before {
+  content: "\e947";
+}
+.icon-play:before {
+  content: "\e948";
+}
+.icon-question:before {
+  content: "\e949";
+}
+.icon-reload:before {
+  content: "\e94a";
+}
+.icon-satisfaction:before {
+  content: "\e94b";
+}
+.icon-schedule:before {
+  content: "\e94c";
+}
+.icon-search:before {
+  content: "\e94d";
+}
+.icon-share:before {
+  content: "\e94e";
+}
+.icon-social-facebook:before {
+  content: "\e94f";
+}
+.icon-social-instagram:before {
+  content: "\e950";
+}
+.icon-social-linkedin:before {
+  content: "\e951";
+}
+.icon-social-pinterest:before {
+  content: "\e952";
+}
+.icon-social-twitter:before {
+  content: "\e953";
+}
+.icon-social-viadeo:before {
+  content: "\e954";
+}
+.icon-social-vimeo:before {
+  content: "\e955";
+}
+.icon-social-youtube:before {
+  content: "\e956";
+}
+.icon-star:before {
+  content: "\e957";
+}
+.icon-star-empty:before {
+  content: "\e958";
+}
+.icon-star-half:before {
+  content: "\e959";
+}
+.icon-touch:before {
+  content: "\e95a";
+}
+.icon-work:before {
+  content: "\e95b";
+}

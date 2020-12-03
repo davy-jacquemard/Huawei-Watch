@@ -7,6 +7,10 @@
 
 }
 
+ol {
+    list-style-type : decimal;
+}
+
 ol li {
     &:before {
        @extend %num-list-style;

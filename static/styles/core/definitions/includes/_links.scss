@@ -1,10 +1,11 @@
-.lien {
+.link {
     color : $secondary-01;
     font-family : 'Ubuntu';
     cursor : pointer;
     text-decoration : none;
+
+    &:hover {
+        text-decoration : underline;
+    }
 }
 
-.link:hover {
-    text-decoration : underline;
-}

@@ -1022,6 +1022,19 @@ COMPONENTS
   background: #EE753B;
 }
 
+.card-review {
+  max-width: 28em;
+  height: 28em;
+  border-radius: 0.8em;
+  background-color: #FAFAFA;
+  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.card-review__title {
+  text-align: center;
+}
+
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/

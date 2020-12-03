@@ -1,4 +1,4 @@
-%numeric-list {
+%num-list-style {
     color: $secondary-01;
     font-weight: 700;
     font-family: $font-primary;
@@ -8,5 +8,15 @@
 }
 
 ol {
-    @extend %numeric-list;
+    list-style-type : none;
+    counter-reset : compteur;
+}
+
+ol li {
+    counter-increment : compteur;
+    &:before {
+        margin-right : (rem(1));
+        content : counter(compteur) ")";
+        @extend %num-list-style;
+    }
 }

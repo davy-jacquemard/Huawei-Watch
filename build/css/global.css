@@ -179,14 +179,14 @@ VARIABLES
 
 @font-face {
   font-family: "icomoon";
-  src: url("./../fonts/icomoon/fonts/icomoon.eot?xkcdrb");
-  src: url("./../fonts/icomoon/fonts/icomoon.eot?xkcdrb#iefix") format("embedded-opentype"), url("./../fonts/icomoon/fonts/icomoon.ttf?xkcdrb") format("truetype"), url("./../fonts/icomoon/fonts/icomoon.woff?xkcdrb") format("woff"), url("./../fonts/icomoon/fonts/icomoon.svg?xkcdrb#icomoon") format("svg");
+  src: url("./../../static/fonts/icomoon/fonts/icomoon.eot?xkcdrb");
+  src: url("./../../static/fonts/icomoon/fonts/icomoon.eot?xkcdrb#iefix") format("embedded-opentype"), url("./../../static/fonts/icomoon/fonts/icomoon.ttf?xkcdrb") format("truetype"), url("./../../static/fonts/icomoon/fonts/icomoon.woff?xkcdrb") format("woff"), url("./../../static/fonts/icomoon/fonts/icomoon.svg?xkcdrb#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;

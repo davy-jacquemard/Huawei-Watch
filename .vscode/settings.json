@@ -3,6 +3,6 @@
     {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/build/css/"
+        "savePath": "/build/css"
     },
     ]}

@@ -1,0 +1,12 @@
+%numeric-list {
+    color: $secondary-01;
+    font-weight: 700;
+    font-family: $font-primary;
+    @include font-size(rem(16), rem(25));
+
+
+}
+
+ol {
+    @extend %numeric-list;
+}

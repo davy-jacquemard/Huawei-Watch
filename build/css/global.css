@@ -1547,11 +1547,11 @@ DEFINITIONS
   text-decoration: underline;
 }
 
-ol {
+.primary-list {
   counter-reset: li;
 }
 
-.li {
+.li--decimal {
   line-height: 2rem;
   counter-increment: li;
 }
@@ -1563,11 +1563,16 @@ ol {
   margin-right: 0.5rem;
 }
 
+.li--dots {
+  line-height: 2rem;
+}
+
 .li--dots::before {
   content: "•";
   color: #24B5B4;
   margin-right: 0.5rem;
-  font-size : 1rem;
+  font-size: 2rem;
+  vertical-align: bottom;
 }
 
 /*--------------------------------

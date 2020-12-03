@@ -1,8 +1,20 @@
 
+// container review
+.news-container {
+    @include flex-col(3);
+}
+
 .card-news {
-    max-width: 28em;
-    height: 28em;
-    border-radius: 0.8em;
-    background-color: $primary-white;
-    box-shadow: $box-shadow;
+    background: $primary-white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    img {
+        width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    &__category {
+        padding: 5px 10px;
+        background: $secondary-03;
+    }
 }

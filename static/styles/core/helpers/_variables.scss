@@ -10,8 +10,8 @@
 
 $primary-black      : #141416;
 $primary-white      : #FAFAFA;
-$secondary-turquoise: #24B5B4;
-$secondary-purple   : #774594;
+$secondary-bright: #24B5B4;
+$secondary-dark   : #774594;
 $secondary-orange   : #EE753B;
 $secondary-yellow   : #F9AF19;
 
@@ -29,7 +29,7 @@ $gray-04            : #E1E7ED;
 
 
 $gradient-turquoise-purple : linear-gradient(270deg, $secondary-turquoise 100%,$secondary-purple 100%);
-$gradient-orange-yellow : linear-gradient(270deg, $secondary-orange 100%,$gradient-yellow 100%);
+$gradient-orange-yellow : linear-gradient(270deg, $secondary-orange 100%,$secondary-yellow 100%);
 
 
 

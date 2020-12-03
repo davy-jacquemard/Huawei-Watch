@@ -15,6 +15,8 @@
         "../../static/styles/core/helpers/_variables.scss",
         "../../static/styles/core/fonts/_font-ubuntu.scss",
         "../../static/styles/core/fonts/_font-gilroy.scss",
+        "../../static/fonts/icomoon/style.scss",
+        "../../static/fonts/icomoon/variables.scss",
         "../../static/styles/core/helpers/_normalize.scss",
         "../../static/styles/core/definitions/_definitions.scss",
         "../../static/styles/core/definitions/includes/_btn.scss",

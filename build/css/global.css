@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*--------------------------------
 MIXINS
 --------------------------------*/
@@ -174,6 +175,443 @@ VARIABLES
   src: url("../../../fonts/gilroy/gilroy-ExtraBold.otf") format("otf");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("./../../../fonts/icomoon/icomoon.eot?xkcdrb");
+  src: url("./../../../fonts/icomoon/icomoon.eot?xkcdrb#iefix") format("embedded-opentype"), url("./../../../fonts/icomoon/icomoon.ttf?xkcdrb") format("truetype"), url("./../../../fonts/icomoon/icomoon.woff?xkcdrb") format("woff"), url("./../../../fonts/icomoon/icomoon.svg?xkcdrb#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "";
+}
+
+.icon-addlocation:before {
+  content: "";
+}
+
+.icon-arrowback:before {
+  content: "";
+}
+
+.icon-arrowbotom:before {
+  content: "";
+}
+
+.icon-arrowright:before {
+  content: "";
+}
+
+.icon-arrowup:before {
+  content: "";
+}
+
+.icon-avatar:before {
+  content: "";
+}
+
+.icon-bullet:before {
+  content: "";
+}
+
+.icon-calendar:before {
+  content: "";
+}
+
+.icon-cards:before {
+  content: "";
+}
+
+.icon-chat:before {
+  content: "";
+}
+
+.icon-check:before {
+  content: "";
+}
+
+.icon-close:before {
+  content: "";
+}
+
+.icon-comments:before {
+  content: "";
+}
+
+.icon-creditcard:before {
+  content: "";
+}
+
+.icon-date:before {
+  content: "";
+}
+
+.icon-delete:before {
+  content: "";
+}
+
+.icon-doc:before {
+  content: "";
+}
+
+.icon-download:before {
+  content: "";
+}
+
+.icon-edit:before {
+  content: "";
+}
+
+.icon-electric:before {
+  content: "";
+}
+
+.icon-euros:before {
+  content: "";
+}
+
+.icon-eye:before {
+  content: "";
+}
+
+.icon-eye-blind:before {
+  content: "";
+}
+
+.icon-filter:before {
+  content: "";
+}
+
+.icon-home:before {
+  content: "";
+}
+
+.icon-huawei-add-user .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-add-user .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-chat .path1:before {
+  content: "";
+  color: #26b4b2;
+}
+
+.icon-huawei-chat .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #26b4b2;
+}
+
+.icon-huawei-chat .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #ed753c;
+}
+
+.icon-huawei-contact-list .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-contact-list .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-edit .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-edit .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-email .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-email .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-group-chat .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-group-chat .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-link .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-link .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-notification .path1:before {
+  content: "";
+  color: #26b4b2;
+}
+
+.icon-huawei-notification .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ed753c;
+}
+
+.icon-huawei-review .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-review .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-search .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-search .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-smartphone .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-smartphone .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-thumbs-up .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-thumbs-up .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-thumbs-up .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #24b5b4;
+}
+
+.icon-huawei-user .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-user .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-huawei-video-player .path1:before {
+  content: "";
+  color: #24b5b4;
+}
+
+.icon-huawei-video-player .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #ee753b;
+}
+
+.icon-info:before {
+  content: "";
+}
+
+.icon-lightbulb:before {
+  content: "";
+}
+
+.icon-link:before {
+  content: "";
+}
+
+.icon-list:before {
+  content: "";
+}
+
+.icon-mail:before {
+  content: "";
+}
+
+.icon-menu:before {
+  content: "";
+}
+
+.icon-miniarrowbottom:before {
+  content: "";
+}
+
+.icon-miniarrowleft:before {
+  content: "";
+}
+
+.icon-miniarrowright:before {
+  content: "";
+}
+
+.icon-miniarrowup:before {
+  content: "";
+}
+
+.icon-minicards:before {
+  content: "";
+}
+
+.icon-minimize:before {
+  content: "";
+}
+
+.icon-more:before {
+  content: "";
+}
+
+.icon-mylocation:before {
+  content: "";
+}
+
+.icon-navigation:before {
+  content: "";
+}
+
+.icon-phone:before {
+  content: "";
+}
+
+.icon-play:before {
+  content: "";
+}
+
+.icon-question:before {
+  content: "";
+}
+
+.icon-reload:before {
+  content: "";
+}
+
+.icon-satisfaction:before {
+  content: "";
+}
+
+.icon-schedule:before {
+  content: "";
+}
+
+.icon-search:before {
+  content: "";
+}
+
+.icon-share:before {
+  content: "";
+}
+
+.icon-social-facebook:before {
+  content: "";
+}
+
+.icon-social-instagram:before {
+  content: "";
+}
+
+.icon-social-linkedin:before {
+  content: "";
+}
+
+.icon-social-pinterest:before {
+  content: "";
+}
+
+.icon-social-twitter:before {
+  content: "";
+}
+
+.icon-social-viadeo:before {
+  content: "";
+}
+
+.icon-social-vimeo:before {
+  content: "";
+}
+
+.icon-social-youtube:before {
+  content: "";
+}
+
+.icon-star:before {
+  content: "";
+}
+
+.icon-star-empty:before {
+  content: "";
+}
+
+.icon-star-half:before {
+  content: "";
+}
+
+.icon-touch:before {
+  content: "";
+}
+
+.icon-work:before {
+  content: "";
 }
 
 /* ===================

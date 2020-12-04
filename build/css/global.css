@@ -1332,14 +1332,12 @@ DEFINITIONS
   border: 0;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
-  background: -webkit-gradient(linear, left top, right top, from(#24B5B4), to(transparent));
-  background: linear-gradient(90deg, #24B5B4 0%, transparent 100%);
+  background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #774594;
 }
 
 .btn--primary:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#24B5B4), to(transparent));
-  background: linear-gradient(90deg, #24B5B4 0%, transparent 100%);
+  background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #24B5B4;
 }
 
@@ -1367,8 +1365,7 @@ DEFINITIONS
   border-radius: inherit;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
-  background: -webkit-gradient(linear, left top, right top, from(#24B5B4), to(transparent));
-  background: linear-gradient(90deg, #24B5B4 0%, transparent 100%);
+  background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #774594;
 }
 
@@ -1378,6 +1375,12 @@ DEFINITIONS
 
 .btn--secondary:hover:before {
   background-color: #24B5B4;
+}
+
+.on-dark .btn--secondary {
+  color: white;
+  background: #141416;
+  background-clip: padding-box;
 }
 
 .h1, .h2, .h3, .h4, .h5 {
@@ -1561,6 +1564,10 @@ li::before {
   color: #24B5B4;
   font-weight: 700;
   margin-right: 0.5rem;
+}
+
+.on-dark {
+  background-color: #141416;
 }
 
 /*--------------------------------

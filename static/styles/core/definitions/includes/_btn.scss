@@ -20,11 +20,11 @@
     border: 0;
     transition: background 0.5s ease;
 
-    background: linear-gradient(90deg, $secondary-01 0%, transparent 100%);
+    background: linear-gradient(135deg, $secondary-01 0%, transparent 100%);
     background-color: $secondary-02;
 
     &:hover {
-      background: linear-gradient(90deg, $secondary-01 0%, transparent 100%);
+      background: linear-gradient(135deg, $secondary-01 0%, transparent 100%);
       background-color: $secondary-01;
     }
 
@@ -54,7 +54,7 @@
       margin: -$border;
       border-radius: inherit;
       transition: background 0.5s ease;
-      background: linear-gradient(90deg, $secondary-01 0%, transparent 100%);
+      background: linear-gradient(135deg, $secondary-01 0%, transparent 100%);
       background-color: $secondary-02;
     }
 
@@ -67,3 +67,14 @@
     }
   }
 }
+
+.on-dark {
+    .btn {
+        &--secondary {
+            color: white;
+            background: $primary-black;
+            background-clip: padding-box;
+        }
+    }
+}
+

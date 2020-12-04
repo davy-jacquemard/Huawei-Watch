@@ -1560,13 +1560,11 @@ DEFINITIONS
   font-family: 'Ubuntu';
   cursor: pointer;
   text-decoration: none;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
+  -webkit-transition: ease 250ms ease-out;
+  transition: ease 250ms ease-out;
 }
 
 .link:hover {
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
   text-decoration: underline;
 }
 
@@ -1968,14 +1966,93 @@ label {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+@media (min-width: 720px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 960px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .flex-footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .logo-footer {
   margin-top: 2rem;
-  width: 50%;
+}
+
+@media (min-width: 720px) {
+  .logo-footer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo-footer {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo-footer {
+    padding: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .footer-col {
+    width: 50%;
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col {
+    padding: 60px 0;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-col {
+    padding: 0;
+    width: 25%;
+  }
+}
+
+@media (min-width: 720px) {
+  .footer-col-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-col-large {
+    padding: 0;
+    width: 25%;
+  }
 }
 
 .footer-line {
@@ -2029,7 +2106,7 @@ label {
   margin-right: 1rem;
 }
 
-.mentions-legales-spacing {
+.footer-link-spacing {
   margin-right: 2rem;
 }
 /*# sourceMappingURL=global.css.map */

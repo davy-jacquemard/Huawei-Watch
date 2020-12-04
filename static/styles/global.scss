@@ -12,7 +12,6 @@ VARIABLES
 @import "./core/helpers/variables";
 
 
-@import "./components/footer/footer";
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/
@@ -32,3 +31,6 @@ COMPONENTS
 
 //form
 @import "./components/form/form";
+
+//navigations
+@import "./components/footer/footer";

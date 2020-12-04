@@ -2186,6 +2186,122 @@ label {
   margin-bottom: 8px;
 }
 
+.menu {
+  height: 100vh;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+.menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu-container__navigation {
+  width: 60%;
+}
+
+.menu-container__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.menu-container__nav::after {
+  content: '';
+  border-bottom: 3px solid #24B5B4;
+  width: 60%;
+  display: block;
+}
+
+.menu-container__nav li {
+  margin-top: 72px;
+  display: block;
+}
+
+.menu-container__nav li:last-child {
+  margin-bottom: 96px;
+}
+
+.menu-container__socials {
+  margin-top: 48px;
+}
+
+.menu-container__socials h3 {
+  margin-top: 16px;
+}
+
+.menu-watch {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-watch__pro {
+  width: 50%;
+  background: #141416;
+  height: 100vh;
+  position: relative;
+  background-image: url(https://www.pierre-lannier.fr/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/0/9/cache/460x537/092l966_1.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: left;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.menu-watch__pro:hover {
+  background-position-x: 10%;
+}
+
+.menu-watch__pro h2 {
+  width: 100%;
+  position: absolute;
+  color: #FAFAFA;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  text-align: right;
+  position: relative;
+  top: 200px;
+  display: inline-block;
+}
+
+.menu-watch__classic {
+  width: 50%;
+  background: #FAFAFA;
+  height: 100vh;
+  position: relative;
+  background-image: url(https://www.pierre-lannier.fr/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/0/9/cache/460x537/092l966_1.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: left;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.menu-watch__classic:hover {
+  background-position-x: 10%;
+}
+
+.menu-watch__classic h2 {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  text-align: right;
+}
+
 .flex-footer {
   width: 100%;
   display: -webkit-box;

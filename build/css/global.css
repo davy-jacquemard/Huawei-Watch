@@ -1252,7 +1252,6 @@ COMPONENTS
   padding-left: 6px;
   padding-right: 6px;
   border-radius: 8px;
-  border-left: 1px solid #EE753B;
 }
 
 @media (min-width: 720px) {
@@ -1268,15 +1267,15 @@ COMPONENTS
 }
 
 .card-news {
-  background: #FAFAFA;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
 }
 
 .card-news__container-img {
   width: 100%;
   height: 200px;
   overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .card-news img {
@@ -1286,6 +1285,10 @@ COMPONENTS
 
 .card-news__container-text {
   padding-left: 24px;
+  background: #FAFAFA;
+  border-left: 4px solid #EE753B;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .card-news__category {
@@ -1311,6 +1314,12 @@ COMPONENTS
 .card-news__links {
   margin: 16px 0 32px 0;
   display: inline-block;
+  color: #141416 !important;
+  padding-left: 0 !important;
+}
+
+.card-news__links i {
+  color: #EE753B;
 }
 
 .card-review {
@@ -1344,15 +1353,22 @@ COMPONENTS
           flex-direction: row;
   list-style-type: none;
   width: 100%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .card-review__stars-container li {
   width: auto;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-review__star {
@@ -1378,8 +1394,12 @@ COMPONENTS
 
 .card-review__user-container {
   margin: 4em 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .card-review__user-name {

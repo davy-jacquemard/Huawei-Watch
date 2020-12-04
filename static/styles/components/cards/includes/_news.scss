@@ -3,17 +3,16 @@
 .news-container {
     @include flex-col(3);
     border-radius: 8px;
-    border-left: 1px solid $secondary-03;
 }
 
 .card-news {
-    background: $primary-white;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
     &__container-img {
         width: 100%;
         height: 200px;
         overflow: hidden;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
     img {
         
@@ -22,6 +21,12 @@
     }
     &__container-text {
         padding-left: rem(24);
+        background: $primary-white;
+        border-left: 4px solid $secondary-03;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+
     }
     &__category {
         margin: 0;
@@ -43,6 +48,11 @@
     &__links {
         margin: rem(16) 0 rem(32) 0;
         display: inline-block;
+        color: $primary-black!important;
+        padding-left: 0!important;
+        i {
+            color: $secondary-03;
+        }
     }
 
 

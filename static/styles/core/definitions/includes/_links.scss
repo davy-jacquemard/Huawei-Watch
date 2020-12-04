@@ -1,4 +1,4 @@
-.link {
+%link {
     color : $secondary-01;
     font-family : $font-primary;
     cursor : pointer;
@@ -10,3 +10,6 @@
     }
 }
 
+.link {
+    @extend %link;
+}

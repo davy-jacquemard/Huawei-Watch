@@ -1266,7 +1266,6 @@ DEFINITIONS
 }
 
 .btn--secondary {
-  z-index: auto;
   color: #141416;
   line-height: 36px;
   background: white;
@@ -1289,6 +1288,21 @@ DEFINITIONS
   transition: background 0.5s ease;
   background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #774594;
+}
+
+.btn--secondary:after {
+  content: '';
+  background: white;
+  background-clip: padding-box;
+  border-radius: 30px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .btn--secondary:hover {
@@ -1350,7 +1364,18 @@ DEFINITIONS
 .on-dark .btn--secondary {
   color: white;
   background-clip: padding-box;
+}
+
+.on-dark .btn--secondary:hover {
+  color: #24B5B4;
+}
+
+.on-dark .btn--secondary:after {
   background: #141416;
+}
+
+.on-dark .btn--disabled {
+  color: #A6B0B9;
 }
 
 .h1, .h2, .h3, .h4, .h5 {
@@ -1555,6 +1580,7 @@ COMPONENTS
   display: flex;
   width: 100%;
   border-radius: 8px;
+<<<<<<< HEAD
 }
 
 .card-news {
@@ -1565,18 +1591,36 @@ COMPONENTS
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.5s;
+=======
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 6px;
+  padding-right: 6px;
+>>>>>>> develop
 }
 
 @media (min-width: 720px) {
-  .card-news {
+  .news-container {
     padding-left: 12px;
   }
 }
 
 @media (min-width: 720px) {
-  .card-news {
+  .news-container {
     padding-right: 12px;
   }
+}
+
+.card-news {
+  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
 }
 
 .card-news:hover {
@@ -1592,7 +1636,10 @@ COMPONENTS
 }
 
 .card-news__box-shadow {
+<<<<<<< HEAD
   box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+=======
+>>>>>>> develop
   border-radius: 8px;
 }
 
@@ -1639,6 +1686,7 @@ COMPONENTS
   color: #EE753B;
 }
 
+<<<<<<< HEAD
 .review-container {
   flex: 0 0 50%;
   max-width: 50%;
@@ -1677,6 +1725,12 @@ COMPONENTS
   .review-container {
     padding-right: 12px;
   }
+=======
+.full-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+>>>>>>> develop
 }
 
 .card-review {

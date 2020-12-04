@@ -1646,7 +1646,7 @@ DEFINITIONS
 }
 
 .li--decimal::before {
-  content: counter(li) ".";
+  content: "0" counter(li) ".";
   color: #24B5B4;
   font-weight: 700;
   margin-right: 0.5rem;
@@ -1660,7 +1660,11 @@ DEFINITIONS
   content: "•";
   color: #24B5B4;
   margin-right: 0.5rem;
+<<<<<<< HEAD
   font-size: 2rem;
+=======
+  font-size: 1rem;
+>>>>>>> develop
   vertical-align: bottom;
 }
 

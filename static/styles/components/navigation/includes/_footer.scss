@@ -6,6 +6,12 @@
     justify-content: space-between;
 }
 
+.logo-footer {
+    margin-top : 2rem;
+    width : 50%;
+}
+
+
 .footer-line {
     border-top: 0.5px solid $primary-white;
     padding: 1rem 0 1rem 0;
@@ -15,7 +21,44 @@
     display: flex;
 }
 
-.size-icon-socialmedia {
-        width : 50px;
-        text-decoration : none;
+.icon-social {
+
+    &-facebook {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+
+    &-twitter {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+
+    &-instagram {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+}
+
+.footer-icon-socialmedia {
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 4rem;
+    margin-right: 1rem;
+
+}
+
+.mentions-legales-spacing {
+    margin-right: 2rem;
 }

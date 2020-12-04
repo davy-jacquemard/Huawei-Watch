@@ -5,6 +5,7 @@
     @include transition-default();
     font-weight: 900;
     &:hover {
+        transition-timing-function: $animation-effect;
         text-decoration : underline;
     }
 }

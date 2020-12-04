@@ -1366,6 +1366,13 @@ COMPONENTS
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/
+/* ===================
+	    Icomoon
+/* ===================*/
+.on-dark {
+  background-color: #141416;
+}
+
 .btn {
   height: 40px;
   font-size: 16px;
@@ -1437,7 +1444,7 @@ DEFINITIONS
   font-size: 14px;
   line-height: 22px;
   color: #141416;
-  padding-right: 16px;
+  padding-right: 20px;
   padding-left: 0;
   height: auto;
   position: relative;
@@ -1446,9 +1453,11 @@ DEFINITIONS
 }
 
 .btn--simple:before {
-  content: "";
-  color: #EE753B;
+  content: "";
+  font-family: "icomoon";
   font-size: 16px;
+  color: #EE753B;
+  font-weight: 400;
   position: absolute;
   right: 0;
   top: 50%;
@@ -1660,16 +1669,8 @@ DEFINITIONS
   content: "•";
   color: #24B5B4;
   margin-right: 0.5rem;
-<<<<<<< HEAD
-  font-size: 2rem;
-=======
   font-size: 1rem;
->>>>>>> develop
   vertical-align: bottom;
-}
-
-.on-dark {
-  background-color: #141416;
 }
 
 /*--------------------------------

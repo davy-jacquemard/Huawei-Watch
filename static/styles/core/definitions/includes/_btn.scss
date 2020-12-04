@@ -75,16 +75,14 @@
   &--simple {
     @include font-size(rem(14), rem(22));
     color: $primary-black;
-    padding-right: rem(16);
+    padding-right: rem(20);
     padding-left: 0;
     height: auto;
     position: relative;
     @include transition-color();
 
     &:before {
-      content: $icon-arrowright;
-      color: $secondary-03;
-      font-size: rem(16);
+      @include icon($icon-miniarrowright, rem(16), $secondary-03);
       position: absolute;
       right: 0;
       top: 50%;

@@ -1,3 +1,16 @@
+/* ===================
+	    Icomoon
+/* ===================*/
+
+@mixin icon($content, $size: rem(24), $color: inherit) {
+  content: $content;
+  font-family: "icomoon";
+  font-size: $size;
+  color: $color;
+  font-weight: 400;
+}
+
+
 .on-dark {
   background-color: $primary-black;
 }

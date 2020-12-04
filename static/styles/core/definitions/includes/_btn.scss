@@ -69,6 +69,10 @@
         background-color: $secondary-01;
       }
     }
+
+    &.btn--big {
+      line-height: rem(44);
+    }
   }
 
 
@@ -85,15 +89,20 @@
       @include icon($icon-miniarrowright, rem(16), $secondary-03);
       position: absolute;
       right: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      top: rem(1);
 
     }
 
     &:hover {
       color: $secondary-03;
     }
+  }
 
+  &--big {
+    height: rem(48);
+    padding: 0 rem(32);
+    border-radius: rem(30);
+    line-height: rem(48);
   }
 }
 

@@ -11,12 +11,8 @@ VARIABLES
 
 @import "./core/helpers/variables";
 
-/*--------------------------------
-COMPONENTS
---------------------------------*/
 
-@import "./components/cards/cards";
-
+@import "./components/footer/footer";
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/
@@ -24,9 +20,15 @@ DEFINITIONS
 @import "./core/definitions/definitions";
 
 
-
 /*--------------------------------
-FORM
+COMPONENTS
 --------------------------------*/
 
+//cards
+@import "./components/cards/cards";
+
+//utils
+@import "./components/utils/utils";
+
+//form
 @import "./components/form/form";

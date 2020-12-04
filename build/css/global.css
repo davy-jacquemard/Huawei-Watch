@@ -1242,6 +1242,8 @@ $colors: (
     Animations
 /* ===================*/
 /*--------------------------------
+<<<<<<< HEAD
+=======
 COMPONENTS
 --------------------------------*/
 .news-container {
@@ -1412,15 +1414,15 @@ COMPONENTS
 }
 
 /*--------------------------------
+>>>>>>> develop
 DEFINITIONS
 --------------------------------*/
 /* ===================
 	    Icomoon
 /* ===================*/
-.on-dark {
-  background-color: #141416;
-}
-
+/* ===================
+	   Padding
+/* ===================*/
 .btn {
   height: 40px;
   font-size: 16px;
@@ -1488,6 +1490,10 @@ DEFINITIONS
   background-color: #24B5B4;
 }
 
+.btn--secondary.btn--big {
+  line-height: 44px;
+}
+
 .btn--simple {
   font-size: 14px;
   line-height: 22px;
@@ -1508,13 +1514,18 @@ DEFINITIONS
   font-weight: 400;
   position: absolute;
   right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 1px;
 }
 
 .btn--simple:hover {
   color: #EE753B;
+}
+
+.btn--big {
+  height: 48px;
+  padding: 0 32px;
+  border-radius: 30px;
+  line-height: 48px;
 }
 
 .on-dark .btn--secondary {
@@ -1722,8 +1733,197 @@ DEFINITIONS
 }
 
 /*--------------------------------
-FORM
+COMPONENTS
 --------------------------------*/
+.news-container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  border-left: 1px solid #EE753B;
+}
+
+@media (min-width: 720px) {
+  .news-container {
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 720px) {
+  .news-container {
+    padding-right: 12px;
+  }
+}
+
+.card-news {
+  background: #FAFAFA;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-news__container-img {
+  width: 100%;
+}
+
+.card-news img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-news__container-text {
+  padding-left: 24px;
+}
+
+.card-news__category {
+  margin: 0;
+  padding: 8px 16px;
+  background: #EE753B;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  font-family: "gilroy", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.card-news__date {
+  color: #616B75;
+  margin: 16px 0;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+.card-news__links {
+  margin: 16px 0 32px 0;
+  display: inline-block;
+}
+
+.card-review {
+  max-width: 28em;
+  height: auto;
+  border-radius: 0.8em;
+  background-color: #FAFAFA;
+  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3em;
+}
+
+.card-review__review-head {
+  text-align: center;
+}
+
+.card-review__stars-container {
+  margin: 1em 0 1.6em 0;
+  max-width: 25em;
+}
+
+.card-review__stars-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-review__stars-container li {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-review__star {
+  color: #24B5B4;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+.card-review__black-bar {
+  width: 20%;
+  height: .2em;
+  background-color: #141416;
+  margin: 1.6em auto 2.4em auto;
+}
+
+.card-review__desc {
+  margin: 0em auto 0 auto;
+}
+
+.card-review__desc p {
+  margin: .8em 0 0 0;
+}
+
+.card-review__user-container {
+  margin: 4em 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card-review__user-name {
+  margin: 0 0 0 1em;
+}
+
+.card-review__user-icon {
+  font-size: 2.4em;
+  color: #24B5B4;
+}
+
+/* ==========================================================================
+	Overlay
+/* ========================================================================== */
+@media (max-width: 719.98px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+/* ==========================================================================
+	Margin & paddings
+/* ========================================================================== */
+.w-flex {
+  padding: 40px 0;
+}
+
+@media (min-width: 720px) {
+  .w-flex {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .w-flex {
+    padding: 80px 0;
+  }
+}
+
+.on-dark {
+  background-color: #141416;
+}
+
 /*--------------------------------
 FORM
 --------------------------------*/

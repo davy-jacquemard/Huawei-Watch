@@ -1560,13 +1560,13 @@ DEFINITIONS
   font-family: 'Ubuntu';
   cursor: pointer;
   text-decoration: none;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 
 .link:hover {
-  -webkit-transition: ease-out;
-  transition: ease-out;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
   text-decoration: underline;
 }
 
@@ -1916,7 +1916,40 @@ label {
   display: flex;
 }
 
-.size-icon-socialmedia {
+.icon-social-facebook {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.icon-social-facebook:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  color: #24B5B4;
+}
+
+.icon-social-twitter {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.icon-social-twitter:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  color: #24B5B4;
+}
+
+.icon-social-instagram {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.icon-social-instagram:hover {
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  color: #24B5B4;
+}
+
+.footer-icon-socialmedia {
   font-size: 30px;
   text-decoration: none;
   line-height: 4rem;

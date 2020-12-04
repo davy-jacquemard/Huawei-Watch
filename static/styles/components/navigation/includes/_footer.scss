@@ -15,13 +15,44 @@
     display: flex;
 }
 
-.size-icon-socialmedia {
-        font-size : 30px;
-        text-decoration : none;
-        line-height : 4rem;
-        margin-right : 1rem;
+.icon-social {
+
+    &-facebook {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+
+    &-twitter {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+
+    &-instagram {
+        transition-duration: $animation-hover;
+
+        &:hover {
+            transition-timing-function: $animation-effect;
+            color: $secondary-01;
+        }
+    }
+}
+
+.footer-icon-socialmedia {
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 4rem;
+    margin-right: 1rem;
+
 }
 
 .mentions-legales-spacing {
-    margin-right : 2rem;
+    margin-right: 2rem;
 }

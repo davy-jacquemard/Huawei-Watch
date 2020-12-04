@@ -43,6 +43,10 @@
     border-radius: rem(30);
     transition: color 0.3s ease;
 
+    &__inner {
+
+    }
+
     &:before {
       content: "";
       position: absolute;
@@ -66,15 +70,45 @@
       }
     }
   }
+
+
+  &--simple {
+    @include font-size(rem(14), rem(22));
+    color: $primary-black;
+    padding-right: rem(16);
+    padding-left: 0;
+    height: auto;
+    position: relative;
+    @include transition-color();
+
+    &:before {
+      content: $icon-arrowright;
+      color: $secondary-03;
+      font-size: rem(16);
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+
+    &:hover {
+      color: $secondary-03;
+    }
+
+  }
 }
 
 .on-dark {
-    .btn {
-        &--secondary {
-            color: white;
-            background: $primary-black;
-            background-clip: padding-box;
-        }
+  .btn {
+    &--secondary {
+      color: white;
+      background-clip: padding-box;
+
+      &__inner {
+        background: $primary-black;
+      }
     }
+  }
 }
 

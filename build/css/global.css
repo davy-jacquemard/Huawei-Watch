@@ -217,7 +217,8 @@ svg:not(:root) {
      * Address differences between Firefox and other browsers.
      */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
 }
 
@@ -349,7 +350,8 @@ input[type="number"]::-webkit-outer-spin-button {
      */
 input[type="search"] {
   -webkit-appearance: textfield;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 /**
@@ -380,6 +382,12 @@ optgroup {
 /**
  * responsive viewport
  */
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
 @viewport {
   width: device-width;
 }
@@ -390,7 +398,8 @@ optgroup {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 /**
@@ -424,7 +433,8 @@ label,
 select,
 summary,
 textarea {
-  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
 }
 
 /**
@@ -435,6 +445,7 @@ textarea {
 }
 
 *, *:before, *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -539,8 +550,11 @@ body {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-right: -6px;
   margin-left: -6px;
 }
@@ -566,7 +580,8 @@ body {
 .container.test {
   position: fixed;
   top: 0;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   pointer-events: none;
   opacity: .15;
   height: 100%;
@@ -575,6 +590,8 @@ body {
   background: #FF9800;
   z-index: 9999999;
   left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1228,7 +1245,9 @@ $colors: (
 COMPONENTS
 --------------------------------*/
 .news-container {
-  flex: 0 0 25%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
   max-width: 25%;
   padding-left: 6px;
   padding-right: 6px;
@@ -1272,7 +1291,8 @@ COMPONENTS
   margin: 0;
   padding: 8px 16px;
   background: #EE753B;
-  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   display: inline-block;
   border-radius: 8px;
   text-transform: uppercase;
@@ -1297,8 +1317,10 @@ COMPONENTS
   height: 28em;
   border-radius: 0.8em;
   background-color: #FAFAFA;
-  box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
+  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 3em;
 }
 
@@ -1311,8 +1333,13 @@ COMPONENTS
 }
 
 .card-review__stars-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   list-style-type: none;
   width: 100%;
 }
@@ -1359,6 +1386,7 @@ DEFINITIONS
 .btn--primary {
   text-align: center;
   border: 0;
+  -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
   background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #774594;
@@ -1377,6 +1405,7 @@ DEFINITIONS
   background-clip: padding-box;
   border: solid 2px transparent;
   border-radius: 30px;
+  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
@@ -1390,6 +1419,7 @@ DEFINITIONS
   z-index: -1;
   margin: -2px;
   border-radius: inherit;
+  -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
   background: linear-gradient(135deg, #24B5B4 0%, transparent 100%);
   background-color: #774594;
@@ -1403,10 +1433,40 @@ DEFINITIONS
   background-color: #24B5B4;
 }
 
+.btn--simple {
+  font-size: 14px;
+  line-height: 22px;
+  color: #141416;
+  padding-right: 16px;
+  padding-left: 0;
+  height: auto;
+  position: relative;
+  -webkit-transition: color 250ms ease-out;
+  transition: color 250ms ease-out;
+}
+
+.btn--simple:before {
+  content: "";
+  color: #EE753B;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.btn--simple:hover {
+  color: #EE753B;
+}
+
 .on-dark .btn--secondary {
   color: white;
-  background: #141416;
   background-clip: padding-box;
+}
+
+.on-dark .btn--secondary__inner {
+  background: #141416;
 }
 
 .h1, .h2, .h3, .h4, .h5 {
@@ -1592,6 +1652,18 @@ DEFINITIONS
   margin-right: 0.5rem;
 }
 
+.li--dots {
+  line-height: 2rem;
+}
+
+.li--dots::before {
+  content: "•";
+  color: #24B5B4;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  vertical-align: bottom;
+}
+
 .on-dark {
   background-color: #141416;
 }
@@ -1610,6 +1682,21 @@ input {
   font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 }
 
+input::-webkit-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input:-ms-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+input::-ms-input-placeholder {
+  color: #A6B0B9;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
 input::placeholder {
   color: #A6B0B9;
   font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
@@ -1618,6 +1705,18 @@ input::placeholder {
 input:focus {
   outline: none;
   border-bottom: 2px solid #24B5B4;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #141416;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #141416;
+}
+
+input:focus::-ms-input-placeholder {
+  color: #141416;
 }
 
 input:focus::placeholder {

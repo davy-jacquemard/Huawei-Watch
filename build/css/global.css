@@ -2254,6 +2254,10 @@ label {
   }
 }
 
+.title-onelign {
+  white-space: nowrap;
+}
+
 .footer-line {
   border-top: 0.5px solid #FAFAFA;
   padding: 1rem 0 1rem 0;

@@ -1,9 +1,9 @@
 .link {
     color : $secondary-01;
-    font-family : 'Ubuntu';
+    font-family : $font-primary;
     cursor : pointer;
-    text-decoration : none;
-
+    @include transition-default();
+    font-weight: 900;
     &:hover {
         text-decoration : underline;
     }

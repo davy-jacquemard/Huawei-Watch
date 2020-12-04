@@ -1,45 +1,76 @@
 
 .card-review {
     max-width: 28em;
-    height: 28em;
+    height: auto;
     border-radius: 0.8em;
     background-color: $primary-white;
     box-shadow: $box-shadow;
     box-sizing: border-box;
     padding: 3em;
 
-    &__title{
+
+    &__review-head{
         text-align: center;
     }
 
     &__stars-container{
+        margin: 1em 0 1.6em 0;
         max-width: 25em;
             ul{
                 display: flex;
                 flex-direction: row;
                 list-style-type:none;
                 width: 100%;
+                justify-content: space-between;
 
             }
         
             li{
-                width: 5em;
+                width: auto;
+                height: auto;
+                display: flex;
+                align-content: center;
+                justify-content: center;
             }
-        
+
+
+
+
     }
+
+    &__star{
+        color: $secondary-01;
+        font-size: 2.8em;
+        text-align: center;
+    }
+
+
 
     &__black-bar{
         width: 20%;
         height: .2em;
         background-color: $primary-black;
-        margin: 1.6em auto 1.6em auto;
+        margin: 1.6em auto 2.4em auto;
     }
 
     &__desc{
-        margin: 0 auto 0 auto;
+        margin: 0em auto 0 auto;
 
             p{
                 margin: .8em 0 0 0;
             }
+    }
+
+    &__user-container{
+        margin: 4em 0 0 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__user-name{
+        margin: 0 0 0 1em;
+    }
+    &__user-icon{
+        font-size: 2.4em;
+        color: $secondary-01;
     }
 }

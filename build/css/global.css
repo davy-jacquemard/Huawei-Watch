@@ -1241,23 +1241,6 @@ $colors: (
 /* ===================
     Animations
 /* ===================*/
-<<<<<<< HEAD
-=======
-.footer {
-  width: 100%;
-  background-color: #141416;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
->>>>>>> develop
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/
@@ -1840,5 +1823,19 @@ label {
   color: #141416;
   display: block;
   margin-bottom: 8px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #141416;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=global.css.map */

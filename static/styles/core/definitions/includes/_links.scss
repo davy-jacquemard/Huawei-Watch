@@ -1,12 +1,14 @@
-.link {
+%link {
     color : $secondary-01;
     font-family : $font-primary;
     cursor : pointer;
     @include transition-default();
     font-weight: 900;
     &:hover {
-        transition-timing-function: $animation-effect;
         text-decoration : underline;
     }
 }
 
+.link {
+    @extend %link;
+}

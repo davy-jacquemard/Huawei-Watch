@@ -1560,7 +1560,7 @@ html {
   font-weight: 700;
 }
 
-.link {
+.link, .wysiwyg a {
   color: #24B5B4;
   font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
   cursor: pointer;
@@ -1569,9 +1569,7 @@ html {
   font-weight: 900;
 }
 
-.link:hover {
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
+.link:hover, .wysiwyg a:hover {
   text-decoration: underline;
 }
 
@@ -1685,11 +1683,6 @@ ul.primary-list .li:before, .wysiwyg ul li:before {
 
 .wysiwyg .headline + h2, .wysiwyg .headline + h3 {
   margin-top: 5px;
-}
-
-.wysiwyg a {
-  -webkit-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
 }
 
 .wysiwyg .btn a {
@@ -2313,25 +2306,77 @@ label {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+@media (min-width: 720px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 960px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .flex-footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .logo-footer {
-  margin-top: 2rem;
+  margin: 1rem 0 1rem 0;
   width: 50%;
+}
+
+@media (min-width: 720px) {
+  .footer-col {
+    width: 50%;
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col {
+    padding: 60px 0;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-col {
+    padding: 0;
+    width: auto;
+  }
+}
+
+@media (min-width: 720px) {
+  .footer-col-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col-large {
+    width: 25%;
+  }
+}
+
+.title-onelign {
+  white-space: nowrap;
 }
 
 .footer-line {
   border-top: 0.5px solid #FAFAFA;
   padding: 1rem 0 1rem 0;
-}
-
-.legal-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .icon-social-facebook {
@@ -2374,7 +2419,7 @@ label {
   margin-right: 1rem;
 }
 
-.mentions-legales-spacing {
+.footer-link-spacing {
   margin-right: 2rem;
 }
 /*# sourceMappingURL=global.css.map */

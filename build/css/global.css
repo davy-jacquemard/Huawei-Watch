@@ -1571,6 +1571,14 @@ DEFINITIONS
 COMPONENTS
 --------------------------------*/
 .news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-news {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
@@ -1578,22 +1586,25 @@ COMPONENTS
   padding-left: 6px;
   padding-right: 6px;
   border-radius: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (min-width: 720px) {
-  .news-container {
+  .card-news {
     padding-left: 12px;
   }
 }
 
 @media (min-width: 720px) {
-  .news-container {
+  .card-news {
     padding-right: 12px;
   }
 }
 
-.card-news {
-  border-radius: 8px;
+.card-news:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .card-news__container-img {
@@ -1602,6 +1613,12 @@ COMPONENTS
   overflow: hidden;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+.card-news__box-shadow {
+  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
 }
 
 .card-news img {
@@ -1621,8 +1638,8 @@ COMPONENTS
   margin: 0;
   padding: 8px 16px;
   background: #EE753B;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   display: inline-block;
   border-radius: 8px;
   text-transform: uppercase;
@@ -1833,9 +1850,8 @@ label {
   margin-bottom: 8px;
 }
 
-.footer {
+.flex-footer {
   width: 100%;
-  background-color: #141416;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1845,5 +1861,24 @@ label {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-line {
+  border-top: 0.5px solid #FAFAFA;
+  padding: 1rem 0 1rem 0;
+}
+
+.legal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.size-icon-socialmedia {
+  width: 50px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=global.css.map */

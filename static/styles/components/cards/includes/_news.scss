@@ -1,12 +1,18 @@
 
 // container review
 .news-container {
-    @include flex-col(3);
+    display: flex;
+    width: 100%;
     border-radius: 8px;
 }
 
 .card-news {
+    @include flex-col(3);
     border-radius: 8px;
+    transition: all 0.5s;
+    &:hover {
+        transform: translateY(-10px);
+         }
     &__container-img {
         width: 100%;
         height: 200px;
@@ -14,8 +20,11 @@
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
     }
+    &__box-shadow {
+        box-shadow: $box-shadow;
+        border-radius: 8px;
+    }
     img {
-        
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
     }
@@ -32,7 +41,7 @@
         margin: 0;
         padding: rem(8) rem(16);
         background: $secondary-03;
-        transform: translate(0, -50%);
+        transform: translateY(-50%);
         display: inline-block;
         border-radius: 8px;
         text-transform: uppercase;

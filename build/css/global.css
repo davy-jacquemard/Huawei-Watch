@@ -1587,6 +1587,7 @@ COMPONENTS
   padding-left: 6px;
   padding-right: 6px;
   border-radius: 8px;
+  cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }

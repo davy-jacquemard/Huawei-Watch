@@ -9,6 +9,7 @@
 .card-news {
     @include flex-col(3);
     border-radius: 8px;
+    cursor: pointer;
     transition: all 0.5s;
     &:hover {
         transform: translateY(-10px);

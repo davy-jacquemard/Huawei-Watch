@@ -1294,7 +1294,7 @@ COMPONENTS
 
 .card-review {
   max-width: 28em;
-  height: 28em;
+  height: auto;
   border-radius: 0.8em;
   background-color: #FAFAFA;
   box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
@@ -1302,11 +1302,12 @@ COMPONENTS
   padding: 3em;
 }
 
-.card-review__title {
+.card-review__review-head {
   text-align: center;
 }
 
 .card-review__stars-container {
+  margin: 1em 0 1.6em 0;
   max-width: 25em;
 }
 
@@ -1315,25 +1316,51 @@ COMPONENTS
   flex-direction: row;
   list-style-type: none;
   width: 100%;
+  justify-content: space-between;
 }
 
 .card-review__stars-container li {
-  width: 5em;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-review__star {
+  color: #24B5B4;
+  font-size: 2.8em;
+  text-align: center;
 }
 
 .card-review__black-bar {
   width: 20%;
   height: .2em;
   background-color: #141416;
-  margin: 1.6em auto 1.6em auto;
+  margin: 1.6em auto 2.4em auto;
 }
 
 .card-review__desc {
-  margin: 0 auto 0 auto;
+  margin: 0em auto 0 auto;
 }
 
 .card-review__desc p {
   margin: .8em 0 0 0;
+}
+
+.card-review__user-container {
+  margin: 4em 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-review__user-name {
+  margin: 0 0 0 1em;
+}
+
+.card-review__user-icon {
+  font-size: 2.4em;
+  color: #24B5B4;
 }
 
 /*--------------------------------

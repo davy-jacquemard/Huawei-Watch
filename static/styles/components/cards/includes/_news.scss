@@ -1,11 +1,14 @@
 
 // container review
 .news-container {
-    @include flex-col(3);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     border-radius: 8px;
 }
 
 .card-news {
+    @include flex-col(3);
     border-radius: 8px;
     &__container-img {
         width: 100%;

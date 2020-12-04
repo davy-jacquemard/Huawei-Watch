@@ -1569,9 +1569,13 @@ html {
   font-weight: 900;
 }
 
+<<<<<<< HEAD
 .link:hover, .wysiwyg a:hover {
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
+=======
+.link:hover {
+>>>>>>> develop
   text-decoration: underline;
 }
 
@@ -1778,17 +1782,14 @@ ul.primary-list .li:before, .wysiwyg ul li:before {
 COMPONENTS
 --------------------------------*/
 .news-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   border-radius: 8px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
-  max-width: 25%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
   padding-left: 6px;
   padding-right: 6px;
+  margin-top: 36px;
 }
 
 @media (min-width: 720px) {
@@ -1803,19 +1804,70 @@ COMPONENTS
   }
 }
 
+@media (min-width: 720px) {
+  .news-container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media (min-width: 720px) and (min-width: 720px) {
+  .news-container {
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 720px) and (min-width: 720px) {
+  .news-container {
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 960px) {
+  .news-container .card-news {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .news-container .card-news:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .news-container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1280px) and (min-width: 720px) {
+  .news-container {
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 1280px) and (min-width: 720px) {
+  .news-container {
+    padding-right: 12px;
+  }
+}
+
 .card-news {
   -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
           box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
   width: 100%;
   border-radius: 8px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   position: relative;
-}
-
-.card-news:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .card-news__container-img {
@@ -2144,14 +2196,103 @@ label {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+<<<<<<< HEAD
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+=======
+}
+
+@media (min-width: 720px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 960px) {
+  .flex-footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .flex-footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+>>>>>>> develop
 }
 
 .logo-footer {
   margin-top: 2rem;
+<<<<<<< HEAD
   width: 50%;
+=======
+}
+
+@media (min-width: 720px) {
+  .logo-footer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo-footer {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo-footer {
+    padding: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .footer-col {
+    width: 50%;
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col {
+    padding: 60px 0;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-col {
+    padding: 0;
+    width: 25%;
+  }
+}
+
+@media (min-width: 720px) {
+  .footer-col-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-col-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-col-large {
+    padding: 0;
+    width: 25%;
+  }
+>>>>>>> develop
 }
 
 .footer-line {
@@ -2205,7 +2346,7 @@ label {
   margin-right: 1rem;
 }
 
-.mentions-legales-spacing {
+.footer-link-spacing {
   margin-right: 2rem;
 }
 /*# sourceMappingURL=global.css.map */

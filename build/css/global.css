@@ -1569,13 +1569,7 @@ html {
   font-weight: 900;
 }
 
-<<<<<<< HEAD
 .link:hover, .wysiwyg a:hover {
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-=======
-.link:hover {
->>>>>>> develop
   text-decoration: underline;
 }
 
@@ -2196,11 +2190,6 @@ label {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-<<<<<<< HEAD
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-=======
 }
 
 @media (min-width: 720px) {
@@ -2225,14 +2214,11 @@ label {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
->>>>>>> develop
 }
 
 .logo-footer {
-  margin-top: 2rem;
-<<<<<<< HEAD
+  margin: 1rem 0 1rem 0;
   width: 50%;
-=======
 }
 
 @media (min-width: 720px) {
@@ -2266,7 +2252,6 @@ label {
   .footer-col-large {
     width: 25%;
   }
->>>>>>> develop
 }
 
 .footer-line {

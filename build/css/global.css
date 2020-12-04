@@ -1241,6 +1241,23 @@ $colors: (
 /* ===================
     Animations
 /* ===================*/
+<<<<<<< HEAD
+=======
+.footer {
+  width: 100%;
+  background-color: #141416;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+>>>>>>> develop
 /*--------------------------------
 DEFINITIONS
 --------------------------------*/
@@ -1570,7 +1587,6 @@ COMPONENTS
   padding-left: 6px;
   padding-right: 6px;
   border-radius: 8px;
-  border-left: 1px solid #EE753B;
 }
 
 @media (min-width: 720px) {
@@ -1586,23 +1602,28 @@ COMPONENTS
 }
 
 .card-news {
-  background: #FAFAFA;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
 }
 
 .card-news__container-img {
   width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .card-news img {
-  width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 
 .card-news__container-text {
   padding-left: 24px;
+  background: #FAFAFA;
+  border-left: 4px solid #EE753B;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .card-news__category {
@@ -1628,6 +1649,12 @@ COMPONENTS
 .card-news__links {
   margin: 16px 0 32px 0;
   display: inline-block;
+  color: #141416 !important;
+  padding-left: 0 !important;
+}
+
+.card-news__links i {
+  color: #EE753B;
 }
 
 .card-review {

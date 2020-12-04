@@ -50,8 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DAVY/ADELIOM/adeliomgit-dauphine-scss-5b4b9d68cc7b" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/styles/core/definitions/includes" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\huawei-watch\Huawei Watch\static\styles\core\definitions\includes" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,7 +72,7 @@
       <workItem from="1606919761335" duration="1521000" />
       <workItem from="1607009960196" duration="2872000" />
       <workItem from="1607071931167" duration="1549000" />
-      <workItem from="1607073524153" duration="6424000" />
+      <workItem from="1607073524153" duration="9598000" />
     </task>
     <servers />
   </component>

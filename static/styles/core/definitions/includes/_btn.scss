@@ -98,6 +98,20 @@
     }
   }
 
+
+
+  &--disabled {
+    background-color: transparent;
+    border: rem(1) solid $gray-02;
+    color: $gray-02;
+    line-height: rem(38);
+
+    &.btn--big {
+      line-height: rem(46);
+    }
+  }
+
+
   &--big {
     height: rem(48);
     padding: 0 rem(32);
@@ -111,10 +125,8 @@
     &--secondary {
       color: white;
       background-clip: padding-box;
+      background: $primary-black;
 
-      &__inner {
-        background: $primary-black;
-      }
     }
   }
 }

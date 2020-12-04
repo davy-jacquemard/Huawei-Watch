@@ -1,8 +1,18 @@
+
+html{
+    font-family: $font-primary;
+    text-align: left;
+    color: $primary-black;
+}
+
+
+
+
 // définition du texte par défaut (police, couleur, épaisseur)
 
 %texts-default {
     font-family: $font-primary;
-    color: $gray-01;
+    color: $primary-black;
     font-weight: 400;
 }
 

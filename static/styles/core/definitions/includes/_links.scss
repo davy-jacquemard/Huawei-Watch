@@ -1,10 +1,9 @@
 .link {
     color : $secondary-01;
-    font-family : 'Ubuntu';
+    font-family : $font-primary;
     cursor : pointer;
-    text-decoration : none;
-    transition-duration: $animation-hover;
-
+    @include transition-default();
+    font-weight: 900;
     &:hover {
         transition-timing-function: $animation-effect;
         text-decoration : underline;

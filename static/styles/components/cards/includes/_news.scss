@@ -7,14 +7,19 @@
 }
 
 .card-news {
-
     background: $primary-white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    &__container-img {
+        width: 100%;
+    }
     img {
         width: 100%;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+    }
+    &__container-text {
+        padding-left: rem(24);
     }
     &__category {
         margin: 0;
@@ -26,8 +31,16 @@
         text-transform: uppercase;
         color: $primary-white;
         font-family: $font-secondary;
-        font-weight: 400;
-        margin-left: 24px;
+        font-weight: 700;
+    }
+    &__date {
+        color: $gray-01;
+        margin: rem(16) 0;
+        font-family: $font-primary;
+    }
+    &__links {
+        margin: rem(16) 0 rem(32) 0;
+        display: inline-block;
     }
 
 

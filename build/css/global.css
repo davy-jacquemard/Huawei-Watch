@@ -1973,6 +1973,11 @@ label {
           justify-content: space-between;
 }
 
+.logo-footer {
+  margin-top: 2rem;
+  width: 50%;
+}
+
 .footer-line {
   border-top: 0.5px solid #FAFAFA;
   padding: 1rem 0 1rem 0;

@@ -1602,6 +1602,7 @@ DEFINITIONS
 COMPONENTS
 --------------------------------*/
 .news-container {
+<<<<<<< Updated upstream
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1611,6 +1612,13 @@ COMPONENTS
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
   max-width: 25%;
+=======
+  border-radius: 8px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+>>>>>>> Stashed changes
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -1622,6 +1630,52 @@ COMPONENTS
 }
 
 @media (min-width: 720px) {
+  .news-container {
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 720px) {
+  .news-container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media (min-width: 720px) and (min-width: 720px) {
+  .news-container {
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 720px) and (min-width: 720px) {
+  .news-container {
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .news-container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media (min-width: 1280px) and (min-width: 720px) {
+  .news-container {
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 1280px) and (min-width: 720px) {
   .news-container {
     padding-right: 12px;
   }
@@ -1971,11 +2025,14 @@ label {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+<<<<<<< Updated upstream
 }
 
 .logo-footer {
   margin-top: 2rem;
   width: 50%;
+=======
+>>>>>>> Stashed changes
 }
 
 .footer-line {

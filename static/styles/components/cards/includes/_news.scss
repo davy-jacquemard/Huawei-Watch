@@ -1,10 +1,15 @@
 
 // container review
 .news-container {
-    display: flex;
-    width: 100%;
     border-radius: 8px;
-    @include flex-col(3);
+    @include flex-col(12);
+    
+    @include breakpoint(sm){
+        @include flex-col(6);
+    }
+    @include breakpoint(lg){
+        @include flex-col(3);
+    }
 }
 
 .card-news {

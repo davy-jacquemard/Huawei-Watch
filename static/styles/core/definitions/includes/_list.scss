@@ -6,7 +6,7 @@
     &--decimal {
 
         &::before {
-            content: counter(li)".";
+            content: "0"counter(li)".";
             color: $secondary-01;
             font-weight: 700;
             margin-right: 0.5rem;
@@ -22,7 +22,7 @@
             content: "•";
             color: $secondary-01;
             margin-right: 0.5rem;
-            font-size: 2rem;
+            font-size: 1rem;
             vertical-align: bottom;
         }
 

@@ -1560,9 +1560,13 @@ DEFINITIONS
   font-family: 'Ubuntu';
   cursor: pointer;
   text-decoration: none;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
 }
 
 .link:hover {
+  -webkit-transition: ease-out;
+  transition: ease-out;
   text-decoration: underline;
 }
 
@@ -1913,7 +1917,13 @@ label {
 }
 
 .size-icon-socialmedia {
-  width: 50px;
+  font-size: 30px;
   text-decoration: none;
+  line-height: 4rem;
+  margin-right: 1rem;
+}
+
+.mentions-legales-spacing {
+  margin-right: 2rem;
 }
 /*# sourceMappingURL=global.css.map */

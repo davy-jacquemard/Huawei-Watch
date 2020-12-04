@@ -3,8 +3,10 @@
     font-family : 'Ubuntu';
     cursor : pointer;
     text-decoration : none;
+    animation-delay : $animation-hover;
 
     &:hover {
+        transition : $animation-effect;
         text-decoration : underline;
     }
 }

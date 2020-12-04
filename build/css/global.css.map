@@ -37,8 +37,12 @@
         "../../static/styles/components/cards/_cards.scss",
         "../../static/styles/components/cards/includes/_news.scss",
         "../../static/styles/components/cards/includes/_review.scss",
+<<<<<<< Updated upstream
         "../../static/styles/components/footer/_footer.scss",
 >>>>>>> develop
+=======
+        "../../static/styles/components/navigation/navigation.scss",
+>>>>>>> Stashed changes
         "../../static/styles/core/definitions/_definitions.scss",
         "../../static/styles/core/definitions/includes/_utils.scss",
         "../../static/styles/core/definitions/includes/_btn.scss",

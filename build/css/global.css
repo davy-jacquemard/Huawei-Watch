@@ -2333,8 +2333,31 @@ label {
 }
 
 .logo-footer {
+<<<<<<< Updated upstream
   margin: 1rem 0 1rem 0;
   width: 50%;
+=======
+  margin-top: 2rem;
+}
+
+@media (min-width: 720px) {
+  .logo-footer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo-footer {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo-footer {
+    padding: 0;
+    width: 50%;
+  }
+>>>>>>> Stashed changes
 }
 
 @media (min-width: 720px) {
@@ -2370,8 +2393,16 @@ label {
   }
 }
 
+<<<<<<< Updated upstream
 .title-onelign {
   white-space: nowrap;
+=======
+@media (min-width: 1280px) {
+  .footer-col-large {
+    padding: 0;
+    width: 25%;
+  }
+>>>>>>> Stashed changes
 }
 
 .footer-line {

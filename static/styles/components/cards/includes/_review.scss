@@ -1,4 +1,4 @@
-.review-container{
+.w-card-review{
     @include flex-col(6);
 
     @include breakpoint(md){

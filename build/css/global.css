@@ -1295,7 +1295,6 @@ DEFINITIONS
   background: white;
   background-clip: padding-box;
   border-radius: 30px;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
   position: absolute;
   top: 0;
@@ -1580,25 +1579,10 @@ COMPONENTS
   display: flex;
   width: 100%;
   border-radius: 8px;
-<<<<<<< HEAD
-}
-
-.card-news {
   flex: 0 0 25%;
   max-width: 25%;
   padding-left: 6px;
   padding-right: 6px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.5s;
-=======
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
-  max-width: 25%;
-  padding-left: 6px;
-  padding-right: 6px;
->>>>>>> develop
 }
 
 @media (min-width: 720px) {
@@ -1614,11 +1598,9 @@ COMPONENTS
 }
 
 .card-news {
-  -webkit-box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
   width: 100%;
   border-radius: 8px;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
 }
@@ -1636,10 +1618,6 @@ COMPONENTS
 }
 
 .card-news__box-shadow {
-<<<<<<< HEAD
-  box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.15);
-=======
->>>>>>> develop
   border-radius: 8px;
 }
 
@@ -1686,8 +1664,13 @@ COMPONENTS
   color: #EE753B;
 }
 
-<<<<<<< HEAD
-.review-container {
+.full-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.w-card-review {
   flex: 0 0 50%;
   max-width: 50%;
   padding-left: 6px;
@@ -1695,19 +1678,19 @@ COMPONENTS
 }
 
 @media (min-width: 720px) {
-  .review-container {
+  .w-card-review {
     padding-left: 12px;
   }
 }
 
 @media (min-width: 720px) {
-  .review-container {
+  .w-card-review {
     padding-right: 12px;
   }
 }
 
 @media (min-width: 960px) {
-  .review-container {
+  .w-card-review {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
     padding-left: 6px;
@@ -1716,21 +1699,15 @@ COMPONENTS
 }
 
 @media (min-width: 960px) and (min-width: 720px) {
-  .review-container {
+  .w-card-review {
     padding-left: 12px;
   }
 }
 
 @media (min-width: 960px) and (min-width: 720px) {
-  .review-container {
+  .w-card-review {
     padding-right: 12px;
   }
-=======
-.full-link {
-  width: 100%;
-  height: 100%;
-  position: absolute;
->>>>>>> develop
 }
 
 .card-review {

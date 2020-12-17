@@ -4,8 +4,10 @@ let calcImageMargin = () => {
 
     const imgContainer = document.querySelector(imgContainerSelector);
 
-    let imgHeight = imgContainer.clientHeight;
-    imgContainer.style.marginTop = (window.innerHeight * 0.3) - imgHeight/2 + 'px';
+    if (window.innerWidth < 960) {
+        let imgHeight = imgContainer.clientHeight;
+        imgContainer.style.marginTop = (window.innerHeight * 0.3) - imgHeight/2 + 'px';
+    }
 }
 
 calcImageMargin();
@@ -30,6 +32,5 @@ let gestColor = () => {
             }
         })
     })
-
 }
 gestColor();

@@ -17,16 +17,21 @@
         align-items: center;
         margin-bottom: rem(100);
         margin-top: rem(36);
-        .mogo {
+        .logo {
             width: 10%;
         }
         }
     &__cross-menu {
+        cursor: pointer;
         margin-right: rem(128);
         margin-left: rem(48);
         }
         &__shop {
-            font-size: rem(26);
+            font-size: rem(32);
+            &:hover {
+                color: $secondary-01;
+                transition: 0.5s;
+            }
         }
     &__nav {
         &::after {
@@ -41,6 +46,10 @@
             &:last-child{
                 margin-bottom: rem(96);
             }
+            h2:hover {
+                color: $secondary-01;
+                transition: 0.5s;
+            }
             
         }
     }
@@ -48,6 +57,13 @@
         margin-top: rem(48);
         h3 {
             margin-top: rem(16);
+        }
+        i {
+            display: inline-block;
+            margin-top: rem(24);
+            margin-right: rem(24);
+            font-size: rem(24);
+            color: black;
         }
     }
     }

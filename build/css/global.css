@@ -2212,17 +2212,24 @@ label {
   margin-top: 36px;
 }
 
-.menu-container__top .mogo {
+.menu-container__top .logo {
   width: 10%;
 }
 
 .menu-container__cross-menu {
+  cursor: pointer;
   margin-right: 128px;
   margin-left: 48px;
 }
 
 .menu-container__shop {
-  font-size: 26px;
+  font-size: 32px;
+}
+
+.menu-container__shop:hover {
+  color: #24B5B4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .menu-container__nav::after {
@@ -2241,12 +2248,26 @@ label {
   margin-bottom: 96px;
 }
 
+.menu-container__nav li h2:hover {
+  color: #24B5B4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .menu-container__socials {
   margin-top: 48px;
 }
 
 .menu-container__socials h3 {
   margin-top: 16px;
+}
+
+.menu-container__socials i {
+  display: inline-block;
+  margin-top: 24px;
+  margin-right: 24px;
+  font-size: 24px;
+  color: black;
 }
 
 .menu-watch {
